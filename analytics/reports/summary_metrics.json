@@ -1,0 +1,2785 @@
+{
+    "overall": [
+        {
+            "total_revenue": "14119068.00",
+            "total_units_sold": 157197,
+            "total_products": 20,
+            "total_customers": 500,
+            "total_transactions": 18156,
+            "current_total_inventory": 9614,
+            "total_lost_sales": 729,
+            "stockout_product_days": 50
+        }
+    ],
+    "sales": [
+        {
+            "date": "2025-01-01",
+            "units_sold": 416,
+            "revenue": "37870.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-01-02",
+            "units_sold": 401,
+            "revenue": "35185.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-01-03",
+            "units_sold": 409,
+            "revenue": "32900.00",
+            "number_of_transactions": 39
+        },
+        {
+            "date": "2025-01-04",
+            "units_sold": 401,
+            "revenue": "33240.00",
+            "number_of_transactions": 37
+        },
+        {
+            "date": "2025-01-05",
+            "units_sold": 391,
+            "revenue": "31840.00",
+            "number_of_transactions": 35
+        },
+        {
+            "date": "2025-01-06",
+            "units_sold": 357,
+            "revenue": "28340.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-01-07",
+            "units_sold": 378,
+            "revenue": "31170.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-01-08",
+            "units_sold": 368,
+            "revenue": "29030.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-01-09",
+            "units_sold": 373,
+            "revenue": "29900.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-01-10",
+            "units_sold": 391,
+            "revenue": "30945.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-01-11",
+            "units_sold": 455,
+            "revenue": "38335.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-01-12",
+            "units_sold": 436,
+            "revenue": "36260.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-01-13",
+            "units_sold": 407,
+            "revenue": "36525.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-01-14",
+            "units_sold": 419,
+            "revenue": "38320.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-01-15",
+            "units_sold": 422,
+            "revenue": "37925.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-01-16",
+            "units_sold": 432,
+            "revenue": "38810.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-01-17",
+            "units_sold": 448,
+            "revenue": "39565.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-01-18",
+            "units_sold": 471,
+            "revenue": "42840.00",
+            "number_of_transactions": 40
+        },
+        {
+            "date": "2025-01-19",
+            "units_sold": 471,
+            "revenue": "43380.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-01-20",
+            "units_sold": 398,
+            "revenue": "35095.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-01-21",
+            "units_sold": 415,
+            "revenue": "38020.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-01-22",
+            "units_sold": 432,
+            "revenue": "39680.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-01-23",
+            "units_sold": 419,
+            "revenue": "37935.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-01-24",
+            "units_sold": 440,
+            "revenue": "39345.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-01-25",
+            "units_sold": 455,
+            "revenue": "42000.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-01-26",
+            "units_sold": 474,
+            "revenue": "43240.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-01-27",
+            "units_sold": 420,
+            "revenue": "38025.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-01-28",
+            "units_sold": 414,
+            "revenue": "37825.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-01-29",
+            "units_sold": 405,
+            "revenue": "36600.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-01-30",
+            "units_sold": 421,
+            "revenue": "38575.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-01-31",
+            "units_sold": 414,
+            "revenue": "35485.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-02-01",
+            "units_sold": 445,
+            "revenue": "40915.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-02-02",
+            "units_sold": 482,
+            "revenue": "44675.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-02-03",
+            "units_sold": 425,
+            "revenue": "37650.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-02-04",
+            "units_sold": 429,
+            "revenue": "38665.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-02-05",
+            "units_sold": 414,
+            "revenue": "37305.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-02-06",
+            "units_sold": 431,
+            "revenue": "38725.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-02-07",
+            "units_sold": 422,
+            "revenue": "37575.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-02-08",
+            "units_sold": 470,
+            "revenue": "43805.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-02-09",
+            "units_sold": 454,
+            "revenue": "41365.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-02-10",
+            "units_sold": 418,
+            "revenue": "38730.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-02-11",
+            "units_sold": 427,
+            "revenue": "36875.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-02-12",
+            "units_sold": 412,
+            "revenue": "33065.00",
+            "number_of_transactions": 40
+        },
+        {
+            "date": "2025-02-13",
+            "units_sold": 415,
+            "revenue": "33880.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-02-14",
+            "units_sold": 411,
+            "revenue": "36995.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-02-15",
+            "units_sold": 438,
+            "revenue": "40225.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-02-16",
+            "units_sold": 448,
+            "revenue": "41025.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-02-17",
+            "units_sold": 412,
+            "revenue": "37290.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-02-18",
+            "units_sold": 398,
+            "revenue": "36295.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-02-19",
+            "units_sold": 404,
+            "revenue": "36495.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-02-20",
+            "units_sold": 419,
+            "revenue": "37815.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-02-21",
+            "units_sold": 430,
+            "revenue": "39995.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-02-22",
+            "units_sold": 453,
+            "revenue": "41495.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-02-23",
+            "units_sold": 441,
+            "revenue": "41175.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-02-24",
+            "units_sold": 421,
+            "revenue": "37180.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-02-25",
+            "units_sold": 423,
+            "revenue": "38250.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-02-26",
+            "units_sold": 435,
+            "revenue": "38520.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-02-27",
+            "units_sold": 427,
+            "revenue": "39940.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-02-28",
+            "units_sold": 440,
+            "revenue": "39320.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-03-01",
+            "units_sold": 428,
+            "revenue": "38395.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-03-02",
+            "units_sold": 463,
+            "revenue": "41685.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-03-03",
+            "units_sold": 411,
+            "revenue": "36535.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-03-04",
+            "units_sold": 421,
+            "revenue": "38900.00",
+            "number_of_transactions": 62
+        },
+        {
+            "date": "2025-03-05",
+            "units_sold": 424,
+            "revenue": "37845.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-03-06",
+            "units_sold": 420,
+            "revenue": "36925.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-03-07",
+            "units_sold": 414,
+            "revenue": "37315.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-03-08",
+            "units_sold": 475,
+            "revenue": "42830.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-03-09",
+            "units_sold": 461,
+            "revenue": "41750.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-03-10",
+            "units_sold": 404,
+            "revenue": "36665.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-03-11",
+            "units_sold": 414,
+            "revenue": "37500.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-03-12",
+            "units_sold": 416,
+            "revenue": "37445.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-03-13",
+            "units_sold": 408,
+            "revenue": "35735.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-03-14",
+            "units_sold": 427,
+            "revenue": "38780.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-03-15",
+            "units_sold": 442,
+            "revenue": "39930.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-03-16",
+            "units_sold": 472,
+            "revenue": "43890.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-03-17",
+            "units_sold": 413,
+            "revenue": "37885.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-03-18",
+            "units_sold": 413,
+            "revenue": "36915.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-03-19",
+            "units_sold": 426,
+            "revenue": "37395.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-03-20",
+            "units_sold": 418,
+            "revenue": "37710.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-03-21",
+            "units_sold": 402,
+            "revenue": "36720.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-03-22",
+            "units_sold": 453,
+            "revenue": "41440.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-03-23",
+            "units_sold": 451,
+            "revenue": "41145.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-03-24",
+            "units_sold": 424,
+            "revenue": "38230.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-03-25",
+            "units_sold": 414,
+            "revenue": "37270.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-03-26",
+            "units_sold": 429,
+            "revenue": "38735.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-03-27",
+            "units_sold": 419,
+            "revenue": "36505.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-03-28",
+            "units_sold": 402,
+            "revenue": "36280.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-03-29",
+            "units_sold": 464,
+            "revenue": "43265.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-03-30",
+            "units_sold": 456,
+            "revenue": "41790.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-03-31",
+            "units_sold": 432,
+            "revenue": "39745.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-04-01",
+            "units_sold": 417,
+            "revenue": "37885.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-04-02",
+            "units_sold": 416,
+            "revenue": "37945.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-04-03",
+            "units_sold": 432,
+            "revenue": "38530.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-04-04",
+            "units_sold": 415,
+            "revenue": "38105.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-04-05",
+            "units_sold": 473,
+            "revenue": "43645.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-04-06",
+            "units_sold": 464,
+            "revenue": "41860.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-04-07",
+            "units_sold": 394,
+            "revenue": "36210.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-04-08",
+            "units_sold": 417,
+            "revenue": "36795.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-04-09",
+            "units_sold": 430,
+            "revenue": "38410.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-04-10",
+            "units_sold": 428,
+            "revenue": "38700.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-04-11",
+            "units_sold": 437,
+            "revenue": "38785.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-04-12",
+            "units_sold": 445,
+            "revenue": "41850.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-04-13",
+            "units_sold": 445,
+            "revenue": "40700.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-04-14",
+            "units_sold": 415,
+            "revenue": "37615.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-04-15",
+            "units_sold": 429,
+            "revenue": "38645.00",
+            "number_of_transactions": 61
+        },
+        {
+            "date": "2025-04-16",
+            "units_sold": 434,
+            "revenue": "38720.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-04-17",
+            "units_sold": 395,
+            "revenue": "35665.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-04-18",
+            "units_sold": 412,
+            "revenue": "36375.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-04-19",
+            "units_sold": 469,
+            "revenue": "43625.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-04-20",
+            "units_sold": 434,
+            "revenue": "40480.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-04-21",
+            "units_sold": 434,
+            "revenue": "38765.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-04-22",
+            "units_sold": 417,
+            "revenue": "37795.00",
+            "number_of_transactions": 39
+        },
+        {
+            "date": "2025-04-23",
+            "units_sold": 411,
+            "revenue": "38025.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-04-24",
+            "units_sold": 416,
+            "revenue": "38055.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-04-25",
+            "units_sold": 431,
+            "revenue": "38565.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-04-26",
+            "units_sold": 451,
+            "revenue": "40850.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-04-27",
+            "units_sold": 444,
+            "revenue": "40790.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-04-28",
+            "units_sold": 453,
+            "revenue": "40940.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-04-29",
+            "units_sold": 428,
+            "revenue": "39130.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-04-30",
+            "units_sold": 411,
+            "revenue": "36370.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-05-01",
+            "units_sold": 430,
+            "revenue": "39040.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-05-02",
+            "units_sold": 417,
+            "revenue": "37860.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-05-03",
+            "units_sold": 499,
+            "revenue": "45680.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-05-04",
+            "units_sold": 463,
+            "revenue": "42450.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-05-05",
+            "units_sold": 413,
+            "revenue": "36910.00",
+            "number_of_transactions": 39
+        },
+        {
+            "date": "2025-05-06",
+            "units_sold": 417,
+            "revenue": "37075.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-05-07",
+            "units_sold": 429,
+            "revenue": "38185.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-05-08",
+            "units_sold": 439,
+            "revenue": "40055.00",
+            "number_of_transactions": 62
+        },
+        {
+            "date": "2025-05-09",
+            "units_sold": 412,
+            "revenue": "37325.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-05-10",
+            "units_sold": 441,
+            "revenue": "40280.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-05-11",
+            "units_sold": 451,
+            "revenue": "40040.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-05-12",
+            "units_sold": 403,
+            "revenue": "35790.00",
+            "number_of_transactions": 37
+        },
+        {
+            "date": "2025-05-13",
+            "units_sold": 418,
+            "revenue": "34785.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-05-14",
+            "units_sold": 414,
+            "revenue": "37725.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-05-15",
+            "units_sold": 415,
+            "revenue": "34110.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-05-16",
+            "units_sold": 390,
+            "revenue": "32405.00",
+            "number_of_transactions": 40
+        },
+        {
+            "date": "2025-05-17",
+            "units_sold": 443,
+            "revenue": "41250.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-05-18",
+            "units_sold": 461,
+            "revenue": "43080.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-05-19",
+            "units_sold": 416,
+            "revenue": "38215.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-05-20",
+            "units_sold": 435,
+            "revenue": "39270.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-05-21",
+            "units_sold": 427,
+            "revenue": "37765.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-05-22",
+            "units_sold": 422,
+            "revenue": "37620.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-05-23",
+            "units_sold": 413,
+            "revenue": "36585.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-05-24",
+            "units_sold": 464,
+            "revenue": "42160.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-05-25",
+            "units_sold": 454,
+            "revenue": "40985.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-05-26",
+            "units_sold": 424,
+            "revenue": "37365.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-05-27",
+            "units_sold": 414,
+            "revenue": "37270.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-05-28",
+            "units_sold": 420,
+            "revenue": "36585.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-05-29",
+            "units_sold": 405,
+            "revenue": "36610.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-05-30",
+            "units_sold": 415,
+            "revenue": "37810.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-05-31",
+            "units_sold": 442,
+            "revenue": "41210.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-06-01",
+            "units_sold": 466,
+            "revenue": "42215.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-06-02",
+            "units_sold": 428,
+            "revenue": "37630.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-06-03",
+            "units_sold": 403,
+            "revenue": "37675.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-06-04",
+            "units_sold": 418,
+            "revenue": "37645.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-06-05",
+            "units_sold": 411,
+            "revenue": "37275.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-06-06",
+            "units_sold": 414,
+            "revenue": "37240.00",
+            "number_of_transactions": 40
+        },
+        {
+            "date": "2025-06-07",
+            "units_sold": 456,
+            "revenue": "41045.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-06-08",
+            "units_sold": 439,
+            "revenue": "39920.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-06-09",
+            "units_sold": 432,
+            "revenue": "38445.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-06-10",
+            "units_sold": 417,
+            "revenue": "37965.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-06-11",
+            "units_sold": 427,
+            "revenue": "38890.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-06-12",
+            "units_sold": 407,
+            "revenue": "36990.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-06-13",
+            "units_sold": 406,
+            "revenue": "37140.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-06-14",
+            "units_sold": 567,
+            "revenue": "46355.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-06-15",
+            "units_sold": 556,
+            "revenue": "44716.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-06-16",
+            "units_sold": 379,
+            "revenue": "31925.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-06-17",
+            "units_sold": 394,
+            "revenue": "32475.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-06-18",
+            "units_sold": 415,
+            "revenue": "37010.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-06-19",
+            "units_sold": 415,
+            "revenue": "37875.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-06-20",
+            "units_sold": 417,
+            "revenue": "36880.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-06-21",
+            "units_sold": 430,
+            "revenue": "39560.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-06-22",
+            "units_sold": 443,
+            "revenue": "39570.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-06-23",
+            "units_sold": 430,
+            "revenue": "37715.00",
+            "number_of_transactions": 64
+        },
+        {
+            "date": "2025-06-24",
+            "units_sold": 407,
+            "revenue": "36570.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-06-25",
+            "units_sold": 427,
+            "revenue": "38970.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-06-26",
+            "units_sold": 434,
+            "revenue": "38865.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-06-27",
+            "units_sold": 425,
+            "revenue": "38735.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-06-28",
+            "units_sold": 481,
+            "revenue": "45050.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-06-29",
+            "units_sold": 462,
+            "revenue": "42350.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-06-30",
+            "units_sold": 419,
+            "revenue": "38380.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-07-01",
+            "units_sold": 428,
+            "revenue": "39330.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-07-02",
+            "units_sold": 407,
+            "revenue": "36575.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-07-03",
+            "units_sold": 422,
+            "revenue": "38345.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-07-04",
+            "units_sold": 406,
+            "revenue": "37045.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-07-05",
+            "units_sold": 473,
+            "revenue": "43340.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-07-06",
+            "units_sold": 463,
+            "revenue": "43105.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-07-07",
+            "units_sold": 428,
+            "revenue": "38665.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-07-08",
+            "units_sold": 409,
+            "revenue": "34475.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-07-09",
+            "units_sold": 422,
+            "revenue": "36835.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-07-10",
+            "units_sold": 438,
+            "revenue": "39395.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-07-11",
+            "units_sold": 411,
+            "revenue": "36365.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-07-12",
+            "units_sold": 481,
+            "revenue": "43805.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-07-13",
+            "units_sold": 445,
+            "revenue": "41125.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-07-14",
+            "units_sold": 421,
+            "revenue": "39105.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-07-15",
+            "units_sold": 424,
+            "revenue": "38060.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-07-16",
+            "units_sold": 430,
+            "revenue": "38340.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-07-17",
+            "units_sold": 400,
+            "revenue": "36645.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-07-18",
+            "units_sold": 413,
+            "revenue": "37620.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-07-19",
+            "units_sold": 464,
+            "revenue": "43450.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-07-20",
+            "units_sold": 472,
+            "revenue": "42310.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-07-21",
+            "units_sold": 420,
+            "revenue": "38015.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-07-22",
+            "units_sold": 419,
+            "revenue": "37980.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-07-23",
+            "units_sold": 437,
+            "revenue": "38545.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-07-24",
+            "units_sold": 419,
+            "revenue": "37445.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-07-25",
+            "units_sold": 429,
+            "revenue": "38310.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-07-26",
+            "units_sold": 472,
+            "revenue": "43780.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-07-27",
+            "units_sold": 473,
+            "revenue": "42140.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-07-28",
+            "units_sold": 438,
+            "revenue": "39265.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-07-29",
+            "units_sold": 407,
+            "revenue": "37065.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-07-30",
+            "units_sold": 421,
+            "revenue": "37235.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-07-31",
+            "units_sold": 439,
+            "revenue": "39990.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-08-01",
+            "units_sold": 431,
+            "revenue": "38160.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-08-02",
+            "units_sold": 443,
+            "revenue": "40000.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-08-03",
+            "units_sold": 452,
+            "revenue": "41360.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-08-04",
+            "units_sold": 431,
+            "revenue": "38960.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-08-05",
+            "units_sold": 419,
+            "revenue": "37135.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-08-06",
+            "units_sold": 392,
+            "revenue": "35600.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-08-07",
+            "units_sold": 429,
+            "revenue": "39490.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-08-08",
+            "units_sold": 409,
+            "revenue": "35230.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-08-09",
+            "units_sold": 422,
+            "revenue": "36855.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-08-10",
+            "units_sold": 451,
+            "revenue": "39940.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-08-11",
+            "units_sold": 430,
+            "revenue": "39335.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-08-12",
+            "units_sold": 415,
+            "revenue": "35880.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-08-13",
+            "units_sold": 441,
+            "revenue": "39005.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-08-14",
+            "units_sold": 408,
+            "revenue": "36640.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-08-15",
+            "units_sold": 398,
+            "revenue": "35475.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-08-16",
+            "units_sold": 492,
+            "revenue": "44155.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-08-17",
+            "units_sold": 447,
+            "revenue": "39760.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-08-18",
+            "units_sold": 405,
+            "revenue": "36190.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-08-19",
+            "units_sold": 423,
+            "revenue": "38510.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-08-20",
+            "units_sold": 415,
+            "revenue": "37175.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-08-21",
+            "units_sold": 409,
+            "revenue": "36805.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-08-22",
+            "units_sold": 436,
+            "revenue": "37505.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-08-23",
+            "units_sold": 431,
+            "revenue": "39990.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-08-24",
+            "units_sold": 442,
+            "revenue": "41570.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-08-25",
+            "units_sold": 404,
+            "revenue": "36625.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-08-26",
+            "units_sold": 400,
+            "revenue": "35035.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-08-27",
+            "units_sold": 429,
+            "revenue": "37275.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-08-28",
+            "units_sold": 415,
+            "revenue": "37745.00",
+            "number_of_transactions": 38
+        },
+        {
+            "date": "2025-08-29",
+            "units_sold": 423,
+            "revenue": "37855.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-08-30",
+            "units_sold": 460,
+            "revenue": "41425.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-08-31",
+            "units_sold": 462,
+            "revenue": "41410.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-09-01",
+            "units_sold": 414,
+            "revenue": "36405.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-09-02",
+            "units_sold": 433,
+            "revenue": "38310.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-09-03",
+            "units_sold": 429,
+            "revenue": "39130.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-09-04",
+            "units_sold": 410,
+            "revenue": "37350.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-09-05",
+            "units_sold": 411,
+            "revenue": "35680.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-09-06",
+            "units_sold": 439,
+            "revenue": "39865.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-09-07",
+            "units_sold": 454,
+            "revenue": "41330.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-09-08",
+            "units_sold": 426,
+            "revenue": "37800.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-09-09",
+            "units_sold": 398,
+            "revenue": "36295.00",
+            "number_of_transactions": 38
+        },
+        {
+            "date": "2025-09-10",
+            "units_sold": 408,
+            "revenue": "36540.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-09-11",
+            "units_sold": 422,
+            "revenue": "36910.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-09-12",
+            "units_sold": 428,
+            "revenue": "38890.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-09-13",
+            "units_sold": 436,
+            "revenue": "39485.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-09-14",
+            "units_sold": 453,
+            "revenue": "42140.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-09-15",
+            "units_sold": 427,
+            "revenue": "37950.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-09-16",
+            "units_sold": 410,
+            "revenue": "36615.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-09-17",
+            "units_sold": 427,
+            "revenue": "39035.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-09-18",
+            "units_sold": 406,
+            "revenue": "36415.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-09-19",
+            "units_sold": 435,
+            "revenue": "38620.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-09-20",
+            "units_sold": 438,
+            "revenue": "40185.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-09-21",
+            "units_sold": 450,
+            "revenue": "42280.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-09-22",
+            "units_sold": 417,
+            "revenue": "37160.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-09-23",
+            "units_sold": 412,
+            "revenue": "37095.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-09-24",
+            "units_sold": 408,
+            "revenue": "36990.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-09-25",
+            "units_sold": 406,
+            "revenue": "36390.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-09-26",
+            "units_sold": 418,
+            "revenue": "37480.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-09-27",
+            "units_sold": 441,
+            "revenue": "41390.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-09-28",
+            "units_sold": 463,
+            "revenue": "41305.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-09-29",
+            "units_sold": 423,
+            "revenue": "38260.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-09-30",
+            "units_sold": 421,
+            "revenue": "37575.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-10-01",
+            "units_sold": 434,
+            "revenue": "39985.00",
+            "number_of_transactions": 60
+        },
+        {
+            "date": "2025-10-02",
+            "units_sold": 421,
+            "revenue": "38875.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-10-03",
+            "units_sold": 422,
+            "revenue": "37770.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-10-04",
+            "units_sold": 476,
+            "revenue": "43740.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-10-05",
+            "units_sold": 440,
+            "revenue": "40375.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-10-06",
+            "units_sold": 406,
+            "revenue": "37065.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-10-07",
+            "units_sold": 422,
+            "revenue": "37455.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-10-08",
+            "units_sold": 420,
+            "revenue": "38495.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-10-09",
+            "units_sold": 415,
+            "revenue": "37580.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-10-10",
+            "units_sold": 405,
+            "revenue": "35290.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-10-11",
+            "units_sold": 455,
+            "revenue": "41685.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-10-12",
+            "units_sold": 440,
+            "revenue": "40485.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-10-13",
+            "units_sold": 401,
+            "revenue": "36590.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-10-14",
+            "units_sold": 411,
+            "revenue": "36880.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-10-15",
+            "units_sold": 568,
+            "revenue": "53109.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-10-16",
+            "units_sold": 539,
+            "revenue": "45678.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-10-17",
+            "units_sold": 539,
+            "revenue": "44524.00",
+            "number_of_transactions": 39
+        },
+        {
+            "date": "2025-10-18",
+            "units_sold": 562,
+            "revenue": "49066.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-10-19",
+            "units_sold": 606,
+            "revenue": "51120.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-10-20",
+            "units_sold": 412,
+            "revenue": "37185.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-10-21",
+            "units_sold": 434,
+            "revenue": "38360.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-10-22",
+            "units_sold": 434,
+            "revenue": "38695.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-10-23",
+            "units_sold": 416,
+            "revenue": "36425.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-10-24",
+            "units_sold": 421,
+            "revenue": "39120.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-10-25",
+            "units_sold": 464,
+            "revenue": "43255.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-10-26",
+            "units_sold": 472,
+            "revenue": "43430.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-10-27",
+            "units_sold": 416,
+            "revenue": "38390.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-10-28",
+            "units_sold": 422,
+            "revenue": "39035.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-10-29",
+            "units_sold": 430,
+            "revenue": "39485.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-10-30",
+            "units_sold": 427,
+            "revenue": "38080.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-10-31",
+            "units_sold": 450,
+            "revenue": "40725.00",
+            "number_of_transactions": 40
+        },
+        {
+            "date": "2025-11-01",
+            "units_sold": 449,
+            "revenue": "41055.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-11-02",
+            "units_sold": 447,
+            "revenue": "40915.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-11-03",
+            "units_sold": 432,
+            "revenue": "38395.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-11-04",
+            "units_sold": 435,
+            "revenue": "39850.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-11-05",
+            "units_sold": 420,
+            "revenue": "37085.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-11-06",
+            "units_sold": 412,
+            "revenue": "37920.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-11-07",
+            "units_sold": 416,
+            "revenue": "37700.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-11-08",
+            "units_sold": 437,
+            "revenue": "40365.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-11-09",
+            "units_sold": 466,
+            "revenue": "43560.00",
+            "number_of_transactions": 38
+        },
+        {
+            "date": "2025-11-10",
+            "units_sold": 409,
+            "revenue": "37110.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-11-11",
+            "units_sold": 416,
+            "revenue": "38645.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-11-12",
+            "units_sold": 427,
+            "revenue": "37825.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-11-13",
+            "units_sold": 423,
+            "revenue": "38175.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-11-14",
+            "units_sold": 406,
+            "revenue": "37835.00",
+            "number_of_transactions": 56
+        },
+        {
+            "date": "2025-11-15",
+            "units_sold": 453,
+            "revenue": "40545.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-11-16",
+            "units_sold": 457,
+            "revenue": "40520.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-11-17",
+            "units_sold": 433,
+            "revenue": "39020.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-11-18",
+            "units_sold": 420,
+            "revenue": "34655.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-11-19",
+            "units_sold": 391,
+            "revenue": "32650.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-11-20",
+            "units_sold": 410,
+            "revenue": "34110.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-11-21",
+            "units_sold": 415,
+            "revenue": "37565.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-11-22",
+            "units_sold": 477,
+            "revenue": "44310.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-11-23",
+            "units_sold": 454,
+            "revenue": "40965.00",
+            "number_of_transactions": 60
+        },
+        {
+            "date": "2025-11-24",
+            "units_sold": 436,
+            "revenue": "39995.00",
+            "number_of_transactions": 53
+        },
+        {
+            "date": "2025-11-25",
+            "units_sold": 431,
+            "revenue": "39155.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-11-26",
+            "units_sold": 411,
+            "revenue": "37360.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-11-27",
+            "units_sold": 415,
+            "revenue": "37605.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-11-28",
+            "units_sold": 411,
+            "revenue": "36855.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-11-29",
+            "units_sold": 457,
+            "revenue": "40970.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-11-30",
+            "units_sold": 462,
+            "revenue": "41610.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-12-01",
+            "units_sold": 422,
+            "revenue": "38235.00",
+            "number_of_transactions": 59
+        },
+        {
+            "date": "2025-12-02",
+            "units_sold": 405,
+            "revenue": "36595.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-12-03",
+            "units_sold": 442,
+            "revenue": "39185.00",
+            "number_of_transactions": 40
+        },
+        {
+            "date": "2025-12-04",
+            "units_sold": 424,
+            "revenue": "37770.00",
+            "number_of_transactions": 52
+        },
+        {
+            "date": "2025-12-05",
+            "units_sold": 421,
+            "revenue": "37580.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-12-06",
+            "units_sold": 464,
+            "revenue": "43040.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-12-07",
+            "units_sold": 445,
+            "revenue": "40640.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-12-08",
+            "units_sold": 413,
+            "revenue": "36685.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-12-09",
+            "units_sold": 402,
+            "revenue": "35995.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-12-10",
+            "units_sold": 429,
+            "revenue": "38825.00",
+            "number_of_transactions": 54
+        },
+        {
+            "date": "2025-12-11",
+            "units_sold": 426,
+            "revenue": "37845.00",
+            "number_of_transactions": 42
+        },
+        {
+            "date": "2025-12-12",
+            "units_sold": 434,
+            "revenue": "38850.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-12-13",
+            "units_sold": 488,
+            "revenue": "44625.00",
+            "number_of_transactions": 45
+        },
+        {
+            "date": "2025-12-14",
+            "units_sold": 440,
+            "revenue": "39450.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-12-15",
+            "units_sold": 413,
+            "revenue": "37790.00",
+            "number_of_transactions": 55
+        },
+        {
+            "date": "2025-12-16",
+            "units_sold": 417,
+            "revenue": "36885.00",
+            "number_of_transactions": 58
+        },
+        {
+            "date": "2025-12-17",
+            "units_sold": 408,
+            "revenue": "36960.00",
+            "number_of_transactions": 50
+        },
+        {
+            "date": "2025-12-18",
+            "units_sold": 437,
+            "revenue": "40410.00",
+            "number_of_transactions": 43
+        },
+        {
+            "date": "2025-12-19",
+            "units_sold": 428,
+            "revenue": "38020.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-12-20",
+            "units_sold": 444,
+            "revenue": "39335.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-12-21",
+            "units_sold": 454,
+            "revenue": "38775.00",
+            "number_of_transactions": 57
+        },
+        {
+            "date": "2025-12-22",
+            "units_sold": 434,
+            "revenue": "39820.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-12-23",
+            "units_sold": 402,
+            "revenue": "37410.00",
+            "number_of_transactions": 41
+        },
+        {
+            "date": "2025-12-24",
+            "units_sold": 418,
+            "revenue": "37360.00",
+            "number_of_transactions": 48
+        },
+        {
+            "date": "2025-12-25",
+            "units_sold": 417,
+            "revenue": "36785.00",
+            "number_of_transactions": 46
+        },
+        {
+            "date": "2025-12-26",
+            "units_sold": 426,
+            "revenue": "38550.00",
+            "number_of_transactions": 49
+        },
+        {
+            "date": "2025-12-27",
+            "units_sold": 448,
+            "revenue": "40185.00",
+            "number_of_transactions": 60
+        },
+        {
+            "date": "2025-12-28",
+            "units_sold": 462,
+            "revenue": "42610.00",
+            "number_of_transactions": 44
+        },
+        {
+            "date": "2025-12-29",
+            "units_sold": 407,
+            "revenue": "36325.00",
+            "number_of_transactions": 51
+        },
+        {
+            "date": "2025-12-30",
+            "units_sold": 416,
+            "revenue": "36940.00",
+            "number_of_transactions": 47
+        },
+        {
+            "date": "2025-12-31",
+            "units_sold": 404,
+            "revenue": "35630.00",
+            "number_of_transactions": 47
+        }
+    ],
+    "product": [
+        {
+            "product_id": "PROD_001",
+            "product_name": "Wireless Headphones",
+            "units_sold": 11055,
+            "revenue": "1648500.00",
+            "avg_selling_price": "149.1180461329715061",
+            "transaction_count": 948,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_007",
+            "product_name": "Mechanical Keyboard",
+            "units_sold": 12258,
+            "revenue": "1591258.50",
+            "avg_selling_price": "129.8138766519823789",
+            "transaction_count": 900,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_012",
+            "product_name": "27-inch Monitor",
+            "units_sold": 5123,
+            "revenue": "1534260.00",
+            "avg_selling_price": "299.4846769471013078",
+            "transaction_count": 850,
+            "lost_sales_units": 451,
+            "stockout_days": 29
+        },
+        {
+            "product_id": "PROD_004",
+            "product_name": "Gaming Headset",
+            "units_sold": 12350,
+            "revenue": "1473264.00",
+            "avg_selling_price": "119.2926315789473684",
+            "transaction_count": 887,
+            "lost_sales_units": 32,
+            "stockout_days": 1
+        },
+        {
+            "product_id": "PROD_011",
+            "product_name": "24-inch Monitor",
+            "units_sold": 5445,
+            "revenue": "1082440.00",
+            "avg_selling_price": "198.7952249770431589",
+            "transaction_count": 858,
+            "lost_sales_units": 71,
+            "stockout_days": 7
+        },
+        {
+            "product_id": "PROD_015",
+            "product_name": "1TB SSD",
+            "units_sold": 10806,
+            "revenue": "1079355.00",
+            "avg_selling_price": "99.8847862298722932",
+            "transaction_count": 919,
+            "lost_sales_units": 98,
+            "stockout_days": 4
+        },
+        {
+            "product_id": "PROD_005",
+            "product_name": "Gaming Mouse",
+            "units_sold": 12168,
+            "revenue": "972072.00",
+            "avg_selling_price": "79.8875739644970414",
+            "transaction_count": 928,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_013",
+            "product_name": "32-inch Monitor",
+            "units_sold": 1825,
+            "revenue": "816570.00",
+            "avg_selling_price": "447.4356164383561644",
+            "transaction_count": 884,
+            "lost_sales_units": 17,
+            "stockout_days": 5
+        },
+        {
+            "product_id": "PROD_014",
+            "product_name": "500GB SSD",
+            "units_sold": 10967,
+            "revenue": "657165.00",
+            "avg_selling_price": "59.9220388438041397",
+            "transaction_count": 910,
+            "lost_sales_units": 36,
+            "stockout_days": 2
+        },
+        {
+            "product_id": "PROD_018",
+            "product_name": "Power Bank",
+            "units_sold": 10960,
+            "revenue": "548000.00",
+            "avg_selling_price": "50.0000000000000000",
+            "transaction_count": 935,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_002",
+            "product_name": "Bluetooth Speaker",
+            "units_sold": 5510,
+            "revenue": "547580.00",
+            "avg_selling_price": "99.3793103448275862",
+            "transaction_count": 908,
+            "lost_sales_units": 24,
+            "stockout_days": 2
+        },
+        {
+            "product_id": "PROD_009",
+            "product_name": "Webcam",
+            "units_sold": 5495,
+            "revenue": "494050.50",
+            "avg_selling_price": "89.9090991810737034",
+            "transaction_count": 952,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_008",
+            "product_name": "Wireless Keyboard",
+            "units_sold": 5464,
+            "revenue": "327507.00",
+            "avg_selling_price": "59.9390556368960469",
+            "transaction_count": 897,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_019",
+            "product_name": "USB-C Charger",
+            "units_sold": 10933,
+            "revenue": "273325.00",
+            "avg_selling_price": "25.0000000000000000",
+            "transaction_count": 897,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_006",
+            "product_name": "Wireless Mouse",
+            "units_sold": 5544,
+            "revenue": "221496.00",
+            "avg_selling_price": "39.9523809523809524",
+            "transaction_count": 934,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_010",
+            "product_name": "Mouse Pad",
+            "units_sold": 11001,
+            "revenue": "219759.00",
+            "avg_selling_price": "19.9762748841014453",
+            "transaction_count": 912,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_016",
+            "product_name": "2TB External HDD",
+            "units_sold": 1819,
+            "revenue": "217956.00",
+            "avg_selling_price": "119.8218801539307312",
+            "transaction_count": 935,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_003",
+            "product_name": "Wired Earphones",
+            "units_sold": 5600,
+            "revenue": "167058.00",
+            "avg_selling_price": "29.8317857142857143",
+            "transaction_count": 915,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_017",
+            "product_name": "64GB Pen Drive",
+            "units_sold": 11056,
+            "revenue": "165642.00",
+            "avg_selling_price": "14.9820911722141823",
+            "transaction_count": 908,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        },
+        {
+            "product_id": "PROD_020",
+            "product_name": "Wireless Charger",
+            "units_sold": 1818,
+            "revenue": "81810.00",
+            "avg_selling_price": "45.0000000000000000",
+            "transaction_count": 879,
+            "lost_sales_units": 0,
+            "stockout_days": 0
+        }
+    ],
+    "category": [
+        {
+            "category_name": "Audio",
+            "revenue": "3836402.00",
+            "units_sold": 34515,
+            "transaction_count": 3658,
+            "avg_selling_price": "111.1517311313921483"
+        },
+        {
+            "category_name": "Computer Accessories",
+            "revenue": "3826143.00",
+            "units_sold": 51930,
+            "transaction_count": 5523,
+            "avg_selling_price": "73.6788561525129983"
+        },
+        {
+            "category_name": "Displays",
+            "revenue": "3433270.00",
+            "units_sold": 12393,
+            "transaction_count": 2592,
+            "avg_selling_price": "277.0330025014120875"
+        },
+        {
+            "category_name": "Storage",
+            "revenue": "2120118.00",
+            "units_sold": 34648,
+            "transaction_count": 3672,
+            "avg_selling_price": "61.1901985684599400"
+        },
+        {
+            "category_name": "Mobile Accessories",
+            "revenue": "903135.00",
+            "units_sold": 23711,
+            "transaction_count": 2711,
+            "avg_selling_price": "38.0892834549365274"
+        }
+    ],
+    "inventory": [
+        {
+            "product_name": "27-inch Monitor",
+            "total_received": 5400,
+            "total_observed_sales": 5123,
+            "total_true_demand": 5574,
+            "total_lost_sales": 451,
+            "total_stockout_days": 29
+        },
+        {
+            "product_name": "24-inch Monitor",
+            "total_received": 5400,
+            "total_observed_sales": 5445,
+            "total_true_demand": 5516,
+            "total_lost_sales": 71,
+            "total_stockout_days": 7
+        },
+        {
+            "product_name": "32-inch Monitor",
+            "total_received": 1800,
+            "total_observed_sales": 1825,
+            "total_true_demand": 1842,
+            "total_lost_sales": 17,
+            "total_stockout_days": 5
+        },
+        {
+            "product_name": "1TB SSD",
+            "total_received": 10800,
+            "total_observed_sales": 10806,
+            "total_true_demand": 10904,
+            "total_lost_sales": 98,
+            "total_stockout_days": 4
+        },
+        {
+            "product_name": "Bluetooth Speaker",
+            "total_received": 5850,
+            "total_observed_sales": 5510,
+            "total_true_demand": 5534,
+            "total_lost_sales": 24,
+            "total_stockout_days": 2
+        },
+        {
+            "product_name": "500GB SSD",
+            "total_received": 11700,
+            "total_observed_sales": 10967,
+            "total_true_demand": 11003,
+            "total_lost_sales": 36,
+            "total_stockout_days": 2
+        },
+        {
+            "product_name": "Gaming Headset",
+            "total_received": 12600,
+            "total_observed_sales": 12350,
+            "total_true_demand": 12382,
+            "total_lost_sales": 32,
+            "total_stockout_days": 1
+        },
+        {
+            "product_name": "USB-C Charger",
+            "total_received": 11700,
+            "total_observed_sales": 10933,
+            "total_true_demand": 10933,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "64GB Pen Drive",
+            "total_received": 11700,
+            "total_observed_sales": 11056,
+            "total_true_demand": 11056,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Mechanical Keyboard",
+            "total_received": 12600,
+            "total_observed_sales": 12258,
+            "total_true_demand": 12258,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Gaming Mouse",
+            "total_received": 12600,
+            "total_observed_sales": 12168,
+            "total_true_demand": 12168,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Wireless Headphones",
+            "total_received": 11700,
+            "total_observed_sales": 11055,
+            "total_true_demand": 11055,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Power Bank",
+            "total_received": 11700,
+            "total_observed_sales": 10960,
+            "total_true_demand": 10960,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Mouse Pad",
+            "total_received": 10800,
+            "total_observed_sales": 11001,
+            "total_true_demand": 11001,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Webcam",
+            "total_received": 5850,
+            "total_observed_sales": 5495,
+            "total_true_demand": 5495,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Wireless Mouse",
+            "total_received": 5850,
+            "total_observed_sales": 5544,
+            "total_true_demand": 5544,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Wireless Charger",
+            "total_received": 1800,
+            "total_observed_sales": 1818,
+            "total_true_demand": 1818,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Wireless Keyboard",
+            "total_received": 5850,
+            "total_observed_sales": 5464,
+            "total_true_demand": 5464,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "2TB External HDD",
+            "total_received": 1950,
+            "total_observed_sales": 1819,
+            "total_true_demand": 1819,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        },
+        {
+            "product_name": "Wired Earphones",
+            "total_received": 5850,
+            "total_observed_sales": 5600,
+            "total_true_demand": 5600,
+            "total_lost_sales": 0,
+            "total_stockout_days": 0
+        }
+    ],
+    "demand_vs_observed": [
+        {
+            "total_true_demand": 157926,
+            "total_observed_sales": 157197,
+            "total_lost_sales": 729,
+            "lost_sales_rate": "0.00461608601496903613"
+        }
+    ],
+    "promotion": [
+        {
+            "promo_status": "During Promotion",
+            "total_revenue": "190143.00",
+            "total_units_sold": 1997,
+            "avg_units_per_transaction": "16.6416666666666667"
+        },
+        {
+            "promo_status": "No Promotion",
+            "total_revenue": "13928925.00",
+            "total_units_sold": 155200,
+            "avg_units_per_transaction": "8.6050121978265691"
+        }
+    ],
+    "discount": [
+        {
+            "discount_band": "0%",
+            "units_sold": 155200,
+            "total_revenue": "13928925.00"
+        },
+        {
+            "discount_band": "10-20%",
+            "units_sold": 1997,
+            "total_revenue": "190143.00"
+        }
+    ],
+    "weekday": [
+        {
+            "dow": "0",
+            "day_of_week": "Sunday   ",
+            "day_type": "Weekend",
+            "total_units_sold": 23854,
+            "total_revenue": "2156606.00",
+            "transaction_count": 2561,
+            "avg_units_sold": "9.3143303397110504",
+            "avg_revenue": "842.0952752830925420"
+        },
+        {
+            "dow": "1",
+            "day_of_week": "Monday   ",
+            "day_type": "Weekday",
+            "total_units_sold": 21700,
+            "total_revenue": "1950140.00",
+            "transaction_count": 2610,
+            "avg_units_sold": "8.3141762452107280",
+            "avg_revenue": "747.1800766283524904"
+        },
+        {
+            "dow": "2",
+            "day_of_week": "Tuesday  ",
+            "day_type": "Weekday",
+            "total_units_sold": 21629,
+            "total_revenue": "1936560.00",
+            "transaction_count": 2629,
+            "avg_units_sold": "8.2270825408900723",
+            "avg_revenue": "736.6146823887409661"
+        },
+        {
+            "dow": "3",
+            "day_of_week": "Wednesday",
+            "day_type": "Weekday",
+            "total_units_sold": 22384,
+            "total_revenue": "2001084.00",
+            "transaction_count": 2652,
+            "avg_units_sold": "8.4404223227752640",
+            "avg_revenue": "754.5565610859728507"
+        },
+        {
+            "dow": "4",
+            "day_of_week": "Thursday ",
+            "day_type": "Weekday",
+            "total_units_sold": 21857,
+            "total_revenue": "1953853.00",
+            "transaction_count": 2528,
+            "avg_units_sold": "8.6459651898734177",
+            "avg_revenue": "772.8848892405063291"
+        },
+        {
+            "dow": "5",
+            "day_of_week": "Friday   ",
+            "day_type": "Weekday",
+            "total_units_sold": 21896,
+            "total_revenue": "1949649.00",
+            "transaction_count": 2562,
+            "avg_units_sold": "8.5464480874316940",
+            "avg_revenue": "760.9871194379391101"
+        },
+        {
+            "dow": "6",
+            "day_of_week": "Saturday ",
+            "day_type": "Weekend",
+            "total_units_sold": 23877,
+            "total_revenue": "2171176.00",
+            "transaction_count": 2614,
+            "avg_units_sold": "9.1342769701606733",
+            "avg_revenue": "830.5952563121652640"
+        }
+    ],
+    "supplier": [
+        {
+            "supplier_name": "Alpha Tech Supplies",
+            "num_purchase_orders": 91,
+            "total_units_ordered": 64350,
+            "nominal_lead_time_days": 3,
+            "avg_actual_lead_time": "3.0000000000000000",
+            "avg_delay_days": "0E-20",
+            "max_delay_days": 0,
+            "on_time_delivery_rate": "1.00000000000000000000"
+        },
+        {
+            "supplier_name": "Beta Components",
+            "num_purchase_orders": 66,
+            "total_units_ordered": 50400,
+            "nominal_lead_time_days": 5,
+            "avg_actual_lead_time": "4.9090909090909091",
+            "avg_delay_days": "-0.09090909090909090909",
+            "max_delay_days": 1,
+            "on_time_delivery_rate": "0.66666666666666666667"
+        },
+        {
+            "supplier_name": "Gamma Electronics",
+            "num_purchase_orders": 65,
+            "total_units_ordered": 37050,
+            "nominal_lead_time_days": 7,
+            "avg_actual_lead_time": "6.8923076923076923",
+            "avg_delay_days": "-0.10769230769230769231",
+            "max_delay_days": 1,
+            "on_time_delivery_rate": "0.70769230769230769231"
+        },
+        {
+            "supplier_name": "Delta Imports",
+            "num_purchase_orders": 38,
+            "total_units_ordered": 13200,
+            "nominal_lead_time_days": 10,
+            "avg_actual_lead_time": "9.9210526315789474",
+            "avg_delay_days": "-0.07894736842105263158",
+            "max_delay_days": 3,
+            "on_time_delivery_rate": "0.55263157894736842105"
+        }
+    ],
+    "customer": [
+        {
+            "customer_segment": "Standard",
+            "num_customers": 218,
+            "num_orders": 7917,
+            "total_revenue": "6066582.00",
+            "revenue_per_customer": "27828.357798165138"
+        },
+        {
+            "customer_segment": "Budget",
+            "num_customers": 144,
+            "num_orders": 5214,
+            "total_revenue": "4118984.00",
+            "revenue_per_customer": "28604.055555555556"
+        },
+        {
+            "customer_segment": "Gaming/Tech Enthusiast",
+            "num_customers": 70,
+            "num_orders": 2553,
+            "total_revenue": "1989650.50",
+            "revenue_per_customer": "28423.578571428571"
+        },
+        {
+            "customer_segment": "Premium",
+            "num_customers": 68,
+            "num_orders": 2472,
+            "total_revenue": "1943851.50",
+            "revenue_per_customer": "28586.051470588235"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+product_name,total_received,total_observed_sales,total_true_demand,total_lost_sales,total_stockout_days
+27-inch Monitor,5400,5123,5574,451,29
+24-inch Monitor,5400,5445,5516,71,7
+32-inch Monitor,1800,1825,1842,17,5
+1TB SSD,10800,10806,10904,98,4
+Bluetooth Speaker,5850,5510,5534,24,2
+500GB SSD,11700,10967,11003,36,2
+Gaming Headset,12600,12350,12382,32,1
+USB-C Charger,11700,10933,10933,0,0
+64GB Pen Drive,11700,11056,11056,0,0
+Mechanical Keyboard,12600,12258,12258,0,0
+Gaming Mouse,12600,12168,12168,0,0
+Wireless Headphones,11700,11055,11055,0,0
+Power Bank,11700,10960,10960,0,0
+Mouse Pad,10800,11001,11001,0,0
+Webcam,5850,5495,5495,0,0
+Wireless Mouse,5850,5544,5544,0,0
+Wireless Charger,1800,1818,1818,0,0
+Wireless Keyboard,5850,5464,5464,0,0
+2TB External HDD,1950,1819,1819,0,0
+Wired Earphones,5850,5600,5600,0,0

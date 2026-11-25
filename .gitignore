@@ -1,0 +1,66 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Data
+data/raw/*
+!data/raw/.keep
+data/processed/*
+!data/processed/.keep
+data/validated/*
+!data/validated/.keep
+data/sample/*
+!data/sample/.keep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Private invoice documents
+data/invoices/
+
+# Database backups
+database/backups/
+
+# Temporary scripts
+temp_*.py
+tmp_*.py
+
+# Generated database and private OCR captures
+/data/smart_inventory.db
+/invoice_gpu_predict.json
+/predict_batch1.json
+/.venv_paddleocr*/

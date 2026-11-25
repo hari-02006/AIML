@@ -1,0 +1,36 @@
+odelineno-7-3" href="#__codelineno-7-3"> from paddleocr import PaddleOCRVL output_dir = Path ( "./output" )</spa
+-------------------------
+# NVIDIA GPU pipeline = PaddleOCRVL () # 昆仑芯 XPU # pipeline = PaddleOCRVL(device="xpu") <a id="
+-------------------------
+"#__codelineno-7-10"> # 昆仑芯 XPU # pipeline = PaddleOCRVL(device="xpu") # 海光 DCU # pipeline = PaddleOCRVL(device="dcu") <a id="__codelineno
+-------------------------
+="#__codelineno-7-12"> # 海光 DCU # pipeline = PaddleOCRVL(device="dcu") # 沐曦 GPU # pipeline = PaddleOCRVL(device="metax_gpu") <a id="__code
+-------------------------
+="#__codelineno-7-14"> # 沐曦 GPU # pipeline = PaddleOCRVL(device="metax_gpu") # Apple Silicon # pipeline = PaddleOCRVL(device="cpu") <a id=
+-------------------------
+delineno-7-16"> # Apple Silicon # pipeline = PaddleOCRVL(device="cpu") # 华为昇腾 NPU # 华为昇腾 NPU 请参考第 3 章节使用 PaddlePaddle + vLLM 的方式进行推理 <a i
+-------------------------
+0" name="__codelineno-7-20" href="#__codelineno-7-20"> # pipeline = PaddleOCRVL(use_doc_orientation_classify=True) # 通过 use_doc_orientation_classify 指定是否使用文档方向分类模型 # pipeline = PaddleOCRVL(use_doc_unwarping=True) # 通过 use_doc_unwarping 指定是否使用文本图像矫正模块 <a id="__codelineno-7-23" name="__codelineno-
+-------------------------
+e) # 通过 use_doc_orientation_classify 指定是否使用文档方向分类模型 # pipeline = PaddleOCRVL(use_doc_unwarping=True) # 通过 use_doc_unwarping 指定是否使用文本图像矫正模块 # pipeline = PaddleOCRVL(use_layout_detection=False) # 通过 use_layout_detection 指定是否使用版面分析模块 <a id="__codelineno-7-24" name="__codelineno-7-24" href="#__co
+-------------------------
+warping=True) # 通过 use_doc_unwarping 指定是否使用文本图像矫正模块 # pipeline = PaddleOCRVL(use_layout_detection=False) # 通过 use_layout_detection 指定是否使用版面分析模块 output = pipeline <span
+-------------------------
+odelineno-8-3" href="#__codelineno-8-3"> from paddleocr import PaddleOCRVL output_dir = Path ( "./output" )</spa
+-------------------------
+odelineno-8-7"> pipeline = PaddleOCRVL ( engine = "transformers" ) output = pipeline . predict</
+-------------------------
+odelineno-9-3" href="#__codelineno-9-3"> from paddleocr import PaddleOCRVL input_file = "./your_pdf_file.pdf" <a id="__codelineno-9-6" name="_
+-------------------------
+odelineno-9-8"> pipeline = PaddleOCRVL () output = pipeline . predict
+-------------------------
+key xxxxxx 3.2.2 Python API 调用 &para; 创建 PaddleOCRVL 对象时传入 vl_rec_backend 指定后端类型（ vllm-server 、 sglang-server 、 fastdeploy-server 、 mlx-vlm-server 或 llama-cpp-server ）， vl_rec_server_url 指定服务地址，例如： <a id="__codelineno-23-1" name="__codelineno-23-1" href="#__cod
+-------------------------
+pre> pipeline = PaddleOCRVL ( vl_rec_backend = "vllm-server" , vl_rec_server_url = "http://localhost:8118/v1" ) 此外，可通过 vl_rec_api_model_name 指定服务使用的模型名称， vl_rec
+-------------------------
+pre> pipeline = PaddleOCRVL ( vl_rec_backend = "vllm-server" , <spa
+-------------------------
+pre> pipeline = PaddleOCRVL ( pipeline_version = "v1.5" , <span cla
+-------------------------
+pre> pipeline = PaddleOCRVL ( pipeline_version = "v1" , <span class
+-------------------------

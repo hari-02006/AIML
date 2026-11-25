@@ -1,0 +1,59 @@
+# Sensitivity scenarios for Stage 13 inventory simulation
+# Nine distinct configurations as approved.
+# Each entry defines lead_time_days, safety_stock_multiplier, review_period_multiplier, and optional policy.
+# Base safety stock units = 5 (as per user instruction).
+# Review period demand is defined as base_review * multiplier (base_review = 5).
+
+- name: scenario_1
+  lead_time_days: 2
+  safety_stock_multiplier: 0.5
+  review_period_multiplier: 0.0
+  policy: backorder
+
+- name: scenario_2
+  lead_time_days: 2
+  safety_stock_multiplier: 0.5
+  review_period_multiplier: 0.5
+  policy: backorder
+
+- name: scenario_3
+  lead_time_days: 2
+  safety_stock_multiplier: 0.5
+  review_period_multiplier: 1.0
+  policy: backorder
+
+- name: scenario_4
+  lead_time_days: 3
+  safety_stock_multiplier: 1.0
+  review_period_multiplier: 0.0
+  policy: backorder
+
+- name: scenario_5
+  lead_time_days: 3
+  safety_stock_multiplier: 1.0
+  review_period_multiplier: 0.5
+  policy: backorder
+
+- name: scenario_6
+  lead_time_days: 3
+  safety_stock_multiplier: 1.0
+  review_period_multiplier: 1.0
+  policy: backorder
+
+- name: scenario_7
+  lead_time_days: 4
+  safety_stock_multiplier: 1.5
+  review_period_multiplier: 0.0
+  policy: backorder
+
+- name: scenario_8
+  lead_time_days: 4
+  safety_stock_multiplier: 1.5
+  review_period_multiplier: 0.5
+  policy: backorder
+
+- name: scenario_9
+  lead_time_days: 4
+  safety_stock_multiplier: 1.5
+  review_period_multiplier: 1.0
+  policy: backorder

@@ -1,0 +1,18 @@
+{
+    "seed": 42,
+    "date_range": "2025-01-01 to 2025-12-31",
+    "scenario": "normal",
+    "products": 20,
+    "customers": 500,
+    "suppliers": 4,
+    "promotions": 2,
+    "sales_row_count": 18156,
+    "inventory_row_count": 7300,
+    "purchase_order_count": 260,
+    "total_true_demand": 157926,
+    "total_observed_sales": 157197,
+    "total_lost_sales": 729,
+    "number_of_stockout_days": 50,
+    "total_revenue": 14119068.0,
+    "validation_checks_passed": true
+}

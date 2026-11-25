@@ -1,0 +1,5 @@
+id,name,nominal_lead_time_days,reliability_class
+SUP_A,Alpha Tech Supplies,3,HIGH
+SUP_B,Beta Components,5,MEDIUM
+SUP_C,Gamma Electronics,7,MEDIUM
+SUP_D,Delta Imports,10,LOW

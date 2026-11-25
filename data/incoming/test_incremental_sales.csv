@@ -1,0 +1,2 @@
+sale_id,date,product_id,customer_id,quantity,unit_price,discount,promotion_id,revenue
+SALES_TEST_004,2026-01-04,PROD_004,CUST_0004,1,40.00,0.00,,40.00

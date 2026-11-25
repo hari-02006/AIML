@@ -1,0 +1,18 @@
+{
+    "seed": 100,
+    "date_range": "2026-01-01 to 2026-01-07",
+    "scenario": "normal",
+    "products": 20,
+    "customers": 500,
+    "suppliers": 4,
+    "promotions": 2,
+    "sales_row_count": 314,
+    "inventory_row_count": 140,
+    "purchase_order_count": 18,
+    "total_true_demand": 3031,
+    "total_observed_sales": 2776,
+    "total_lost_sales": 255,
+    "number_of_stockout_days": 18,
+    "total_revenue": 229260.0,
+    "validation_checks_passed": true
+}

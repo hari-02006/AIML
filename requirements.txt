@@ -1,0 +1,13 @@
+pandas
+numpy
+pytest
+psycopg[binary]
+python-dotenv==1.2.3
+PyYAML
+joblib==1.6.0
+scikit-learn==1.9.1
+streamlit
+Pillow
+pypdfium2
+pytesseract
+winocr; sys_platform == "win32"

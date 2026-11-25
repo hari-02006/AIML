@@ -1,0 +1,22 @@
+{
+    "generator_version": "1.0",
+    "random_seed": 100,
+    "start_date": "2026-01-01",
+    "end_date": "2026-01-07",
+    "scenario": "normal",
+    "product_count": 20,
+    "customer_count": 500,
+    "supplier_count": 4,
+    "promotion_count": 2,
+    "row_counts": {
+        "categories": 5,
+        "products": 20,
+        "suppliers": 4,
+        "customers": 500,
+        "promotions": 2,
+        "inventory": 140,
+        "sales": 314,
+        "purchase_orders": 18
+    },
+    "generation_timestamp": "2026-09-29T01:04:49.696731"
+}

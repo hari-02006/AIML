@@ -1,0 +1,5 @@
+customer_segment,num_customers,num_orders,total_revenue,revenue_per_customer
+Standard,218,7917,6066582.00,27828.357798165138
+Budget,144,5214,4118984.00,28604.055555555556
+Gaming/Tech Enthusiast,70,2553,1989650.50,28423.578571428571
+Premium,68,2472,1943851.50,28586.051470588235

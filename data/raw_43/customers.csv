@@ -1,0 +1,501 @@
+customer_id,age_group,location,customer_segment
+CUST_0001,18-24,Bangalore,Standard
+CUST_0002,25-34,Hyderabad,Standard
+CUST_0003,18-24,Hyderabad,Standard
+CUST_0004,18-24,Chennai,Standard
+CUST_0005,35-44,Chennai,Gaming/Tech Enthusiast
+CUST_0006,45+,Hyderabad,Budget
+CUST_0007,18-24,Mumbai,Standard
+CUST_0008,18-24,Delhi,Standard
+CUST_0009,45+,Delhi,Premium
+CUST_0010,35-44,Chennai,Budget
+CUST_0011,18-24,Mumbai,Standard
+CUST_0012,25-34,Mumbai,Premium
+CUST_0013,35-44,Bangalore,Gaming/Tech Enthusiast
+CUST_0014,18-24,Chennai,Standard
+CUST_0015,18-24,Mumbai,Premium
+CUST_0016,45+,Pune,Gaming/Tech Enthusiast
+CUST_0017,35-44,Bangalore,Standard
+CUST_0018,45+,Delhi,Budget
+CUST_0019,18-24,Bangalore,Budget
+CUST_0020,35-44,Bangalore,Premium
+CUST_0021,18-24,Chennai,Standard
+CUST_0022,35-44,Hyderabad,Gaming/Tech Enthusiast
+CUST_0023,35-44,Pune,Standard
+CUST_0024,45+,Hyderabad,Standard
+CUST_0025,18-24,Bangalore,Budget
+CUST_0026,18-24,Pune,Premium
+CUST_0027,35-44,Mumbai,Standard
+CUST_0028,45+,Hyderabad,Standard
+CUST_0029,25-34,Mumbai,Budget
+CUST_0030,18-24,Delhi,Premium
+CUST_0031,35-44,Mumbai,Premium
+CUST_0032,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0033,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0034,45+,Mumbai,Premium
+CUST_0035,18-24,Pune,Budget
+CUST_0036,45+,Delhi,Standard
+CUST_0037,45+,Bangalore,Standard
+CUST_0038,45+,Bangalore,Standard
+CUST_0039,18-24,Delhi,Standard
+CUST_0040,25-34,Pune,Premium
+CUST_0041,18-24,Pune,Budget
+CUST_0042,35-44,Delhi,Standard
+CUST_0043,25-34,Hyderabad,Premium
+CUST_0044,45+,Delhi,Budget
+CUST_0045,18-24,Mumbai,Budget
+CUST_0046,18-24,Chennai,Standard
+CUST_0047,25-34,Delhi,Standard
+CUST_0048,45+,Delhi,Budget
+CUST_0049,18-24,Pune,Budget
+CUST_0050,45+,Delhi,Standard
+CUST_0051,18-24,Mumbai,Budget
+CUST_0052,18-24,Bangalore,Standard
+CUST_0053,25-34,Chennai,Standard
+CUST_0054,25-34,Delhi,Budget
+CUST_0055,18-24,Bangalore,Standard
+CUST_0056,35-44,Pune,Premium
+CUST_0057,45+,Pune,Standard
+CUST_0058,35-44,Delhi,Budget
+CUST_0059,25-34,Hyderabad,Gaming/Tech Enthusiast
+CUST_0060,25-34,Bangalore,Standard
+CUST_0061,45+,Bangalore,Premium
+CUST_0062,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0063,45+,Chennai,Standard
+CUST_0064,45+,Chennai,Premium
+CUST_0065,18-24,Delhi,Standard
+CUST_0066,25-34,Chennai,Premium
+CUST_0067,18-24,Pune,Standard
+CUST_0068,25-34,Delhi,Gaming/Tech Enthusiast
+CUST_0069,18-24,Bangalore,Budget
+CUST_0070,45+,Hyderabad,Budget
+CUST_0071,35-44,Hyderabad,Standard
+CUST_0072,35-44,Hyderabad,Budget
+CUST_0073,35-44,Bangalore,Standard
+CUST_0074,18-24,Hyderabad,Standard
+CUST_0075,45+,Bangalore,Standard
+CUST_0076,25-34,Delhi,Premium
+CUST_0077,25-34,Bangalore,Standard
+CUST_0078,45+,Delhi,Premium
+CUST_0079,35-44,Chennai,Standard
+CUST_0080,25-34,Bangalore,Gaming/Tech Enthusiast
+CUST_0081,25-34,Delhi,Budget
+CUST_0082,25-34,Bangalore,Gaming/Tech Enthusiast
+CUST_0083,45+,Chennai,Budget
+CUST_0084,35-44,Mumbai,Premium
+CUST_0085,35-44,Delhi,Budget
+CUST_0086,45+,Bangalore,Standard
+CUST_0087,35-44,Mumbai,Budget
+CUST_0088,45+,Mumbai,Standard
+CUST_0089,45+,Pune,Standard
+CUST_0090,45+,Chennai,Standard
+CUST_0091,18-24,Mumbai,Standard
+CUST_0092,45+,Hyderabad,Premium
+CUST_0093,35-44,Mumbai,Standard
+CUST_0094,25-34,Hyderabad,Standard
+CUST_0095,45+,Hyderabad,Budget
+CUST_0096,25-34,Bangalore,Budget
+CUST_0097,35-44,Bangalore,Gaming/Tech Enthusiast
+CUST_0098,18-24,Chennai,Premium
+CUST_0099,25-34,Mumbai,Standard
+CUST_0100,25-34,Bangalore,Gaming/Tech Enthusiast
+CUST_0101,45+,Hyderabad,Budget
+CUST_0102,18-24,Delhi,Gaming/Tech Enthusiast
+CUST_0103,25-34,Chennai,Budget
+CUST_0104,18-24,Hyderabad,Budget
+CUST_0105,18-24,Mumbai,Standard
+CUST_0106,18-24,Chennai,Gaming/Tech Enthusiast
+CUST_0107,25-34,Bangalore,Budget
+CUST_0108,25-34,Delhi,Standard
+CUST_0109,35-44,Hyderabad,Premium
+CUST_0110,45+,Pune,Premium
+CUST_0111,45+,Pune,Standard
+CUST_0112,35-44,Chennai,Premium
+CUST_0113,45+,Hyderabad,Standard
+CUST_0114,45+,Mumbai,Standard
+CUST_0115,25-34,Hyderabad,Budget
+CUST_0116,25-34,Mumbai,Budget
+CUST_0117,18-24,Hyderabad,Budget
+CUST_0118,18-24,Pune,Premium
+CUST_0119,45+,Delhi,Standard
+CUST_0120,18-24,Delhi,Standard
+CUST_0121,18-24,Hyderabad,Budget
+CUST_0122,18-24,Chennai,Standard
+CUST_0123,18-24,Hyderabad,Budget
+CUST_0124,18-24,Delhi,Premium
+CUST_0125,18-24,Chennai,Standard
+CUST_0126,45+,Chennai,Gaming/Tech Enthusiast
+CUST_0127,35-44,Pune,Gaming/Tech Enthusiast
+CUST_0128,35-44,Bangalore,Budget
+CUST_0129,45+,Chennai,Budget
+CUST_0130,18-24,Mumbai,Standard
+CUST_0131,18-24,Mumbai,Standard
+CUST_0132,35-44,Chennai,Budget
+CUST_0133,35-44,Hyderabad,Standard
+CUST_0134,18-24,Pune,Standard
+CUST_0135,35-44,Bangalore,Budget
+CUST_0136,18-24,Pune,Budget
+CUST_0137,18-24,Hyderabad,Standard
+CUST_0138,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0139,45+,Bangalore,Standard
+CUST_0140,25-34,Mumbai,Standard
+CUST_0141,45+,Hyderabad,Budget
+CUST_0142,35-44,Bangalore,Standard
+CUST_0143,45+,Mumbai,Gaming/Tech Enthusiast
+CUST_0144,35-44,Bangalore,Budget
+CUST_0145,45+,Chennai,Gaming/Tech Enthusiast
+CUST_0146,35-44,Pune,Premium
+CUST_0147,45+,Hyderabad,Gaming/Tech Enthusiast
+CUST_0148,18-24,Mumbai,Standard
+CUST_0149,18-24,Delhi,Budget
+CUST_0150,35-44,Chennai,Standard
+CUST_0151,25-34,Chennai,Standard
+CUST_0152,45+,Hyderabad,Standard
+CUST_0153,35-44,Pune,Budget
+CUST_0154,35-44,Bangalore,Standard
+CUST_0155,18-24,Chennai,Gaming/Tech Enthusiast
+CUST_0156,25-34,Mumbai,Standard
+CUST_0157,25-34,Mumbai,Standard
+CUST_0158,35-44,Bangalore,Budget
+CUST_0159,25-34,Mumbai,Standard
+CUST_0160,18-24,Bangalore,Budget
+CUST_0161,45+,Chennai,Gaming/Tech Enthusiast
+CUST_0162,25-34,Mumbai,Standard
+CUST_0163,25-34,Chennai,Premium
+CUST_0164,35-44,Mumbai,Standard
+CUST_0165,45+,Pune,Standard
+CUST_0166,18-24,Pune,Gaming/Tech Enthusiast
+CUST_0167,18-24,Mumbai,Budget
+CUST_0168,45+,Hyderabad,Budget
+CUST_0169,35-44,Mumbai,Standard
+CUST_0170,45+,Chennai,Standard
+CUST_0171,35-44,Bangalore,Premium
+CUST_0172,18-24,Delhi,Premium
+CUST_0173,25-34,Pune,Standard
+CUST_0174,45+,Pune,Standard
+CUST_0175,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0176,25-34,Delhi,Budget
+CUST_0177,45+,Bangalore,Budget
+CUST_0178,25-34,Bangalore,Budget
+CUST_0179,18-24,Bangalore,Standard
+CUST_0180,18-24,Hyderabad,Standard
+CUST_0181,18-24,Hyderabad,Budget
+CUST_0182,35-44,Bangalore,Budget
+CUST_0183,18-24,Hyderabad,Standard
+CUST_0184,18-24,Pune,Standard
+CUST_0185,18-24,Mumbai,Standard
+CUST_0186,18-24,Delhi,Standard
+CUST_0187,18-24,Pune,Premium
+CUST_0188,45+,Bangalore,Budget
+CUST_0189,25-34,Mumbai,Premium
+CUST_0190,18-24,Hyderabad,Budget
+CUST_0191,25-34,Bangalore,Premium
+CUST_0192,45+,Chennai,Standard
+CUST_0193,35-44,Pune,Standard
+CUST_0194,18-24,Hyderabad,Gaming/Tech Enthusiast
+CUST_0195,25-34,Bangalore,Standard
+CUST_0196,45+,Chennai,Gaming/Tech Enthusiast
+CUST_0197,18-24,Delhi,Budget
+CUST_0198,35-44,Delhi,Standard
+CUST_0199,25-34,Pune,Premium
+CUST_0200,18-24,Bangalore,Gaming/Tech Enthusiast
+CUST_0201,25-34,Mumbai,Standard
+CUST_0202,18-24,Chennai,Standard
+CUST_0203,35-44,Delhi,Standard
+CUST_0204,25-34,Hyderabad,Standard
+CUST_0205,18-24,Hyderabad,Premium
+CUST_0206,18-24,Hyderabad,Budget
+CUST_0207,35-44,Chennai,Premium
+CUST_0208,45+,Bangalore,Budget
+CUST_0209,35-44,Delhi,Budget
+CUST_0210,45+,Pune,Standard
+CUST_0211,35-44,Pune,Gaming/Tech Enthusiast
+CUST_0212,45+,Mumbai,Standard
+CUST_0213,35-44,Bangalore,Standard
+CUST_0214,35-44,Chennai,Premium
+CUST_0215,45+,Chennai,Standard
+CUST_0216,18-24,Chennai,Budget
+CUST_0217,18-24,Chennai,Standard
+CUST_0218,18-24,Chennai,Standard
+CUST_0219,18-24,Pune,Budget
+CUST_0220,18-24,Hyderabad,Gaming/Tech Enthusiast
+CUST_0221,45+,Hyderabad,Standard
+CUST_0222,25-34,Delhi,Gaming/Tech Enthusiast
+CUST_0223,45+,Chennai,Budget
+CUST_0224,25-34,Delhi,Standard
+CUST_0225,18-24,Mumbai,Budget
+CUST_0226,35-44,Bangalore,Standard
+CUST_0227,45+,Bangalore,Standard
+CUST_0228,45+,Bangalore,Budget
+CUST_0229,18-24,Mumbai,Budget
+CUST_0230,35-44,Pune,Budget
+CUST_0231,25-34,Bangalore,Standard
+CUST_0232,35-44,Pune,Standard
+CUST_0233,25-34,Mumbai,Budget
+CUST_0234,25-34,Bangalore,Premium
+CUST_0235,45+,Delhi,Standard
+CUST_0236,35-44,Mumbai,Budget
+CUST_0237,45+,Pune,Budget
+CUST_0238,35-44,Chennai,Budget
+CUST_0239,45+,Hyderabad,Premium
+CUST_0240,45+,Mumbai,Gaming/Tech Enthusiast
+CUST_0241,45+,Bangalore,Standard
+CUST_0242,18-24,Mumbai,Standard
+CUST_0243,35-44,Delhi,Gaming/Tech Enthusiast
+CUST_0244,25-34,Hyderabad,Standard
+CUST_0245,18-24,Chennai,Budget
+CUST_0246,35-44,Hyderabad,Budget
+CUST_0247,18-24,Delhi,Budget
+CUST_0248,18-24,Hyderabad,Premium
+CUST_0249,18-24,Chennai,Budget
+CUST_0250,35-44,Pune,Budget
+CUST_0251,25-34,Bangalore,Budget
+CUST_0252,18-24,Mumbai,Standard
+CUST_0253,35-44,Delhi,Premium
+CUST_0254,25-34,Pune,Budget
+CUST_0255,25-34,Hyderabad,Budget
+CUST_0256,35-44,Hyderabad,Budget
+CUST_0257,35-44,Delhi,Standard
+CUST_0258,25-34,Hyderabad,Standard
+CUST_0259,25-34,Chennai,Premium
+CUST_0260,35-44,Pune,Standard
+CUST_0261,45+,Pune,Standard
+CUST_0262,18-24,Pune,Budget
+CUST_0263,25-34,Delhi,Gaming/Tech Enthusiast
+CUST_0264,35-44,Hyderabad,Premium
+CUST_0265,18-24,Chennai,Budget
+CUST_0266,45+,Mumbai,Standard
+CUST_0267,45+,Hyderabad,Budget
+CUST_0268,35-44,Hyderabad,Standard
+CUST_0269,45+,Bangalore,Budget
+CUST_0270,45+,Pune,Premium
+CUST_0271,18-24,Chennai,Premium
+CUST_0272,18-24,Mumbai,Budget
+CUST_0273,35-44,Hyderabad,Gaming/Tech Enthusiast
+CUST_0274,35-44,Pune,Standard
+CUST_0275,25-34,Mumbai,Standard
+CUST_0276,35-44,Bangalore,Gaming/Tech Enthusiast
+CUST_0277,18-24,Pune,Budget
+CUST_0278,25-34,Hyderabad,Standard
+CUST_0279,25-34,Chennai,Standard
+CUST_0280,35-44,Mumbai,Budget
+CUST_0281,18-24,Delhi,Premium
+CUST_0282,18-24,Mumbai,Gaming/Tech Enthusiast
+CUST_0283,35-44,Chennai,Budget
+CUST_0284,25-34,Pune,Premium
+CUST_0285,18-24,Mumbai,Gaming/Tech Enthusiast
+CUST_0286,45+,Chennai,Budget
+CUST_0287,35-44,Mumbai,Standard
+CUST_0288,35-44,Chennai,Budget
+CUST_0289,45+,Hyderabad,Budget
+CUST_0290,18-24,Chennai,Gaming/Tech Enthusiast
+CUST_0291,18-24,Hyderabad,Budget
+CUST_0292,18-24,Chennai,Budget
+CUST_0293,18-24,Chennai,Budget
+CUST_0294,18-24,Mumbai,Budget
+CUST_0295,45+,Delhi,Budget
+CUST_0296,25-34,Bangalore,Standard
+CUST_0297,35-44,Delhi,Budget
+CUST_0298,25-34,Chennai,Budget
+CUST_0299,25-34,Pune,Premium
+CUST_0300,25-34,Hyderabad,Standard
+CUST_0301,35-44,Bangalore,Standard
+CUST_0302,25-34,Hyderabad,Budget
+CUST_0303,45+,Pune,Standard
+CUST_0304,35-44,Bangalore,Budget
+CUST_0305,25-34,Hyderabad,Standard
+CUST_0306,18-24,Hyderabad,Standard
+CUST_0307,35-44,Mumbai,Standard
+CUST_0308,18-24,Chennai,Standard
+CUST_0309,35-44,Mumbai,Standard
+CUST_0310,35-44,Delhi,Premium
+CUST_0311,25-34,Chennai,Budget
+CUST_0312,18-24,Bangalore,Standard
+CUST_0313,35-44,Chennai,Budget
+CUST_0314,25-34,Chennai,Budget
+CUST_0315,45+,Bangalore,Standard
+CUST_0316,18-24,Hyderabad,Budget
+CUST_0317,25-34,Mumbai,Premium
+CUST_0318,18-24,Mumbai,Premium
+CUST_0319,25-34,Hyderabad,Budget
+CUST_0320,45+,Delhi,Budget
+CUST_0321,18-24,Bangalore,Standard
+CUST_0322,18-24,Pune,Budget
+CUST_0323,45+,Bangalore,Standard
+CUST_0324,35-44,Pune,Budget
+CUST_0325,18-24,Hyderabad,Premium
+CUST_0326,35-44,Bangalore,Standard
+CUST_0327,25-34,Pune,Standard
+CUST_0328,35-44,Bangalore,Standard
+CUST_0329,35-44,Delhi,Standard
+CUST_0330,35-44,Bangalore,Budget
+CUST_0331,25-34,Delhi,Gaming/Tech Enthusiast
+CUST_0332,25-34,Delhi,Gaming/Tech Enthusiast
+CUST_0333,45+,Chennai,Standard
+CUST_0334,45+,Mumbai,Budget
+CUST_0335,35-44,Pune,Gaming/Tech Enthusiast
+CUST_0336,45+,Delhi,Budget
+CUST_0337,45+,Hyderabad,Budget
+CUST_0338,35-44,Pune,Budget
+CUST_0339,45+,Hyderabad,Premium
+CUST_0340,35-44,Delhi,Standard
+CUST_0341,45+,Chennai,Standard
+CUST_0342,45+,Hyderabad,Standard
+CUST_0343,45+,Bangalore,Budget
+CUST_0344,45+,Mumbai,Gaming/Tech Enthusiast
+CUST_0345,18-24,Bangalore,Standard
+CUST_0346,18-24,Delhi,Budget
+CUST_0347,45+,Mumbai,Gaming/Tech Enthusiast
+CUST_0348,45+,Bangalore,Premium
+CUST_0349,25-34,Pune,Budget
+CUST_0350,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0351,35-44,Pune,Standard
+CUST_0352,45+,Mumbai,Budget
+CUST_0353,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0354,25-34,Bangalore,Budget
+CUST_0355,18-24,Mumbai,Budget
+CUST_0356,25-34,Chennai,Budget
+CUST_0357,45+,Pune,Gaming/Tech Enthusiast
+CUST_0358,45+,Mumbai,Premium
+CUST_0359,18-24,Hyderabad,Budget
+CUST_0360,35-44,Delhi,Premium
+CUST_0361,25-34,Bangalore,Budget
+CUST_0362,35-44,Delhi,Budget
+CUST_0363,45+,Pune,Premium
+CUST_0364,25-34,Delhi,Standard
+CUST_0365,25-34,Pune,Premium
+CUST_0366,35-44,Pune,Standard
+CUST_0367,18-24,Mumbai,Standard
+CUST_0368,18-24,Mumbai,Gaming/Tech Enthusiast
+CUST_0369,35-44,Delhi,Gaming/Tech Enthusiast
+CUST_0370,18-24,Pune,Budget
+CUST_0371,45+,Pune,Budget
+CUST_0372,35-44,Chennai,Premium
+CUST_0373,25-34,Hyderabad,Gaming/Tech Enthusiast
+CUST_0374,45+,Pune,Standard
+CUST_0375,25-34,Bangalore,Standard
+CUST_0376,18-24,Mumbai,Premium
+CUST_0377,45+,Chennai,Premium
+CUST_0378,45+,Hyderabad,Standard
+CUST_0379,35-44,Bangalore,Standard
+CUST_0380,18-24,Pune,Standard
+CUST_0381,45+,Hyderabad,Budget
+CUST_0382,45+,Mumbai,Standard
+CUST_0383,35-44,Mumbai,Standard
+CUST_0384,35-44,Pune,Premium
+CUST_0385,25-34,Delhi,Premium
+CUST_0386,35-44,Pune,Standard
+CUST_0387,35-44,Hyderabad,Standard
+CUST_0388,25-34,Bangalore,Premium
+CUST_0389,45+,Hyderabad,Budget
+CUST_0390,18-24,Delhi,Premium
+CUST_0391,45+,Delhi,Premium
+CUST_0392,25-34,Mumbai,Standard
+CUST_0393,35-44,Bangalore,Standard
+CUST_0394,45+,Delhi,Budget
+CUST_0395,25-34,Hyderabad,Gaming/Tech Enthusiast
+CUST_0396,35-44,Hyderabad,Standard
+CUST_0397,45+,Pune,Budget
+CUST_0398,35-44,Pune,Premium
+CUST_0399,35-44,Mumbai,Premium
+CUST_0400,35-44,Mumbai,Budget
+CUST_0401,35-44,Pune,Premium
+CUST_0402,35-44,Chennai,Budget
+CUST_0403,45+,Chennai,Standard
+CUST_0404,25-34,Pune,Standard
+CUST_0405,25-34,Bangalore,Standard
+CUST_0406,18-24,Pune,Standard
+CUST_0407,25-34,Bangalore,Standard
+CUST_0408,35-44,Mumbai,Gaming/Tech Enthusiast
+CUST_0409,45+,Bangalore,Gaming/Tech Enthusiast
+CUST_0410,18-24,Pune,Standard
+CUST_0411,25-34,Delhi,Premium
+CUST_0412,18-24,Chennai,Premium
+CUST_0413,45+,Delhi,Standard
+CUST_0414,25-34,Pune,Standard
+CUST_0415,25-34,Mumbai,Standard
+CUST_0416,18-24,Pune,Budget
+CUST_0417,45+,Pune,Budget
+CUST_0418,25-34,Chennai,Standard
+CUST_0419,35-44,Chennai,Standard
+CUST_0420,25-34,Chennai,Budget
+CUST_0421,18-24,Chennai,Gaming/Tech Enthusiast
+CUST_0422,45+,Delhi,Standard
+CUST_0423,45+,Delhi,Standard
+CUST_0424,35-44,Pune,Budget
+CUST_0425,25-34,Mumbai,Budget
+CUST_0426,18-24,Mumbai,Standard
+CUST_0427,45+,Delhi,Budget
+CUST_0428,25-34,Pune,Budget
+CUST_0429,18-24,Mumbai,Budget
+CUST_0430,25-34,Delhi,Budget
+CUST_0431,45+,Pune,Gaming/Tech Enthusiast
+CUST_0432,45+,Bangalore,Standard
+CUST_0433,35-44,Mumbai,Standard
+CUST_0434,25-34,Hyderabad,Gaming/Tech Enthusiast
+CUST_0435,25-34,Mumbai,Standard
+CUST_0436,45+,Chennai,Standard
+CUST_0437,25-34,Pune,Standard
+CUST_0438,25-34,Hyderabad,Standard
+CUST_0439,35-44,Bangalore,Standard
+CUST_0440,18-24,Pune,Gaming/Tech Enthusiast
+CUST_0441,18-24,Pune,Gaming/Tech Enthusiast
+CUST_0442,25-34,Pune,Premium
+CUST_0443,25-34,Hyderabad,Standard
+CUST_0444,45+,Bangalore,Premium
+CUST_0445,45+,Bangalore,Budget
+CUST_0446,45+,Hyderabad,Standard
+CUST_0447,18-24,Bangalore,Gaming/Tech Enthusiast
+CUST_0448,45+,Chennai,Gaming/Tech Enthusiast
+CUST_0449,45+,Bangalore,Premium
+CUST_0450,35-44,Hyderabad,Gaming/Tech Enthusiast
+CUST_0451,18-24,Bangalore,Standard
+CUST_0452,35-44,Chennai,Budget
+CUST_0453,35-44,Mumbai,Standard
+CUST_0454,18-24,Delhi,Standard
+CUST_0455,25-34,Mumbai,Standard
+CUST_0456,45+,Chennai,Budget
+CUST_0457,35-44,Delhi,Premium
+CUST_0458,35-44,Pune,Gaming/Tech Enthusiast
+CUST_0459,35-44,Mumbai,Standard
+CUST_0460,45+,Bangalore,Budget
+CUST_0461,45+,Hyderabad,Budget
+CUST_0462,35-44,Hyderabad,Standard
+CUST_0463,25-34,Delhi,Standard
+CUST_0464,45+,Bangalore,Budget
+CUST_0465,35-44,Chennai,Standard
+CUST_0466,25-34,Delhi,Standard
+CUST_0467,45+,Bangalore,Budget
+CUST_0468,45+,Chennai,Standard
+CUST_0469,18-24,Chennai,Budget
+CUST_0470,35-44,Hyderabad,Premium
+CUST_0471,45+,Chennai,Standard
+CUST_0472,25-34,Pune,Budget
+CUST_0473,45+,Delhi,Gaming/Tech Enthusiast
+CUST_0474,35-44,Pune,Gaming/Tech Enthusiast
+CUST_0475,25-34,Hyderabad,Budget
+CUST_0476,35-44,Chennai,Standard
+CUST_0477,35-44,Hyderabad,Standard
+CUST_0478,35-44,Mumbai,Standard
+CUST_0479,35-44,Delhi,Gaming/Tech Enthusiast
+CUST_0480,18-24,Chennai,Standard
+CUST_0481,18-24,Mumbai,Budget
+CUST_0482,35-44,Delhi,Premium
+CUST_0483,45+,Delhi,Standard
+CUST_0484,18-24,Pune,Standard
+CUST_0485,45+,Hyderabad,Budget
+CUST_0486,18-24,Mumbai,Budget
+CUST_0487,45+,Delhi,Gaming/Tech Enthusiast
+CUST_0488,35-44,Mumbai,Budget
+CUST_0489,18-24,Mumbai,Gaming/Tech Enthusiast
+CUST_0490,35-44,Hyderabad,Gaming/Tech Enthusiast
+CUST_0491,45+,Bangalore,Standard
+CUST_0492,45+,Chennai,Budget
+CUST_0493,18-24,Mumbai,Gaming/Tech Enthusiast
+CUST_0494,35-44,Chennai,Gaming/Tech Enthusiast
+CUST_0495,35-44,Mumbai,Premium
+CUST_0496,35-44,Hyderabad,Premium
+CUST_0497,45+,Pune,Standard
+CUST_0498,35-44,Chennai,Gaming/Tech Enthusiast
+CUST_0499,25-34,Delhi,Standard
+CUST_0500,35-44,Pune,Budget

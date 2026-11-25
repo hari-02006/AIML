@@ -1,0 +1,252 @@
+# STAGE 1: SYNTHETIC RETAIL ENVIRONMENT DESIGN SPECIFICATION
+# This file is a configuration blueprint for the Stage 2 data generator.
+# IT DOES NOT GENERATE DATA ITSELF.
+
+simulation:
+  seed: 42
+  start_date: "2023-01-01"
+  end_date: "2023-12-31"
+
+suppliers:
+  - id: "SUP_A"
+    name: "Alpha Tech Supplies"
+    nominal_lead_time_days: 3
+    reliability_class: "HIGH"
+  - id: "SUP_B"
+    name: "Beta Components"
+    nominal_lead_time_days: 5
+    reliability_class: "MEDIUM"
+  - id: "SUP_C"
+    name: "Gamma Electronics"
+    nominal_lead_time_days: 7
+    reliability_class: "MEDIUM"
+  - id: "SUP_D"
+    name: "Delta Imports"
+    nominal_lead_time_days: 10
+    reliability_class: "LOW"
+
+categories:
+  - "Audio"
+  - "Computer Accessories"
+  - "Displays"
+  - "Storage"
+  - "Mobile Accessories"
+
+products:
+  - id: "PROD_001"
+    name: "Wireless Headphones"
+    category: "Audio"
+    base_price: 150.00
+    cost_price: 80.00
+    initial_inventory_range: [100, 300]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_B"
+
+  - id: "PROD_002"
+    name: "Bluetooth Speaker"
+    category: "Audio"
+    base_price: 100.00
+    cost_price: 50.00
+    initial_inventory_range: [50, 200]
+    popularity_class: "MEDIUM"
+    demand_pattern_class: "Seasonal"
+    supplier_id: "SUP_C"
+
+  - id: "PROD_003"
+    name: "Wired Earphones"
+    category: "Audio"
+    base_price: 30.00
+    cost_price: 10.00
+    initial_inventory_range: [200, 500]
+    popularity_class: "MEDIUM"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_A"
+
+  - id: "PROD_004"
+    name: "Gaming Headset"
+    category: "Audio"
+    base_price: 120.00
+    cost_price: 60.00
+    initial_inventory_range: [80, 250]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Weekend-sensitive"
+    supplier_id: "SUP_B"
+
+  - id: "PROD_005"
+    name: "Gaming Mouse"
+    category: "Computer Accessories"
+    base_price: 80.00
+    cost_price: 35.00
+    initial_inventory_range: [150, 400]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Weekend-sensitive"
+    supplier_id: "SUP_A"
+
+  - id: "PROD_006"
+    name: "Wireless Mouse"
+    category: "Computer Accessories"
+    base_price: 40.00
+    cost_price: 15.00
+    initial_inventory_range: [100, 300]
+    popularity_class: "MEDIUM"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_A"
+
+  - id: "PROD_007"
+    name: "Mechanical Keyboard"
+    category: "Computer Accessories"
+    base_price: 130.00
+    cost_price: 70.00
+    initial_inventory_range: [100, 300]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Weekend-sensitive"
+    supplier_id: "SUP_B"
+
+  - id: "PROD_008"
+    name: "Wireless Keyboard"
+    category: "Computer Accessories"
+    base_price: 60.00
+    cost_price: 25.00
+    initial_inventory_range: [100, 250]
+    popularity_class: "MEDIUM"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_A"
+
+  - id: "PROD_009"
+    name: "Webcam"
+    category: "Computer Accessories"
+    base_price: 90.00
+    cost_price: 40.00
+    initial_inventory_range: [50, 150]
+    popularity_class: "MEDIUM"
+    demand_pattern_class: "Highly-variable"
+    supplier_id: "SUP_C"
+
+  - id: "PROD_010"
+    name: "Mouse Pad"
+    category: "Computer Accessories"
+    base_price: 20.00
+    cost_price: 5.00
+    initial_inventory_range: [200, 600]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_A"
+
+  - id: "PROD_011"
+    name: "24-inch Monitor"
+    category: "Displays"
+    base_price: 200.00
+    cost_price: 120.00
+    initial_inventory_range: [30, 100]
+    popularity_class: "MEDIUM"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_D"
+
+  - id: "PROD_012"
+    name: "27-inch Monitor"
+    category: "Displays"
+    base_price: 300.00
+    cost_price: 180.00
+    initial_inventory_range: [20, 80]
+    popularity_class: "MEDIUM"
+    demand_pattern_class: "Promotion-sensitive"
+    supplier_id: "SUP_D"
+
+  - id: "PROD_013"
+    name: "32-inch Monitor"
+    category: "Displays"
+    base_price: 450.00
+    cost_price: 280.00
+    initial_inventory_range: [10, 50]
+    popularity_class: "LOW"
+    demand_pattern_class: "Promotion-sensitive"
+    supplier_id: "SUP_D"
+
+  - id: "PROD_014"
+    name: "500GB SSD"
+    category: "Storage"
+    base_price: 60.00
+    cost_price: 30.00
+    initial_inventory_range: [100, 300]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_C"
+
+  - id: "PROD_015"
+    name: "1TB SSD"
+    category: "Storage"
+    base_price: 100.00
+    cost_price: 50.00
+    initial_inventory_range: [80, 250]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_C"
+
+  - id: "PROD_016"
+    name: "2TB External HDD"
+    category: "Storage"
+    base_price: 120.00
+    cost_price: 70.00
+    initial_inventory_range: [30, 100]
+    popularity_class: "LOW"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_C"
+
+  - id: "PROD_017"
+    name: "64GB Pen Drive"
+    category: "Storage"
+    base_price: 15.00
+    cost_price: 5.00
+    initial_inventory_range: [200, 800]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_A"
+
+  - id: "PROD_018"
+    name: "Power Bank"
+    category: "Mobile Accessories"
+    base_price: 50.00
+    cost_price: 20.00
+    initial_inventory_range: [100, 300]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Seasonal"
+    supplier_id: "SUP_B"
+
+  - id: "PROD_019"
+    name: "USB-C Charger"
+    category: "Mobile Accessories"
+    base_price: 25.00
+    cost_price: 10.00
+    initial_inventory_range: [150, 400]
+    popularity_class: "HIGH"
+    demand_pattern_class: "Stable"
+    supplier_id: "SUP_A"
+
+  - id: "PROD_020"
+    name: "Wireless Charger"
+    category: "Mobile Accessories"
+    base_price: 45.00
+    cost_price: 20.00
+    initial_inventory_range: [40, 150]
+    popularity_class: "LOW"
+    demand_pattern_class: "Promotion-sensitive"
+    supplier_id: "SUP_B"
+
+promotions:
+  - id: "FESTIVAL_SALE"
+    name: "Festival Sale"
+    discount_range: [0.10, 0.20]
+    affected_categories: ["Audio", "Displays"]
+    intensity: 1.8
+    duration_days: 5
+    
+  - id: "WEEKEND_SALE"
+    name: "Weekend Sale"
+    discount_range: [0.05, 0.15]
+    affected_categories: ["Computer Accessories", "Storage"]
+    intensity: 1.3
+    duration_days: 2
+
+discounts:
+  allowed_levels: [0.00, 0.05, 0.10, 0.15, 0.20]

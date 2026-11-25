@@ -1,0 +1,21 @@
+id,name,category,base_price,cost_price,popularity_class,demand_pattern_class,supplier_id
+PROD_001,Wireless Headphones,Audio,150.0,80.0,HIGH,Stable,SUP_B
+PROD_002,Bluetooth Speaker,Audio,100.0,50.0,MEDIUM,Seasonal,SUP_C
+PROD_003,Wired Earphones,Audio,30.0,10.0,MEDIUM,Stable,SUP_A
+PROD_004,Gaming Headset,Audio,120.0,60.0,HIGH,Weekend-sensitive,SUP_B
+PROD_005,Gaming Mouse,Computer Accessories,80.0,35.0,HIGH,Weekend-sensitive,SUP_A
+PROD_006,Wireless Mouse,Computer Accessories,40.0,15.0,MEDIUM,Stable,SUP_A
+PROD_007,Mechanical Keyboard,Computer Accessories,130.0,70.0,HIGH,Weekend-sensitive,SUP_B
+PROD_008,Wireless Keyboard,Computer Accessories,60.0,25.0,MEDIUM,Stable,SUP_A
+PROD_009,Webcam,Computer Accessories,90.0,40.0,MEDIUM,Highly-variable,SUP_C
+PROD_010,Mouse Pad,Computer Accessories,20.0,5.0,HIGH,Stable,SUP_A
+PROD_011,24-inch Monitor,Displays,200.0,120.0,MEDIUM,Stable,SUP_D
+PROD_012,27-inch Monitor,Displays,300.0,180.0,MEDIUM,Promotion-sensitive,SUP_D
+PROD_013,32-inch Monitor,Displays,450.0,280.0,LOW,Promotion-sensitive,SUP_D
+PROD_014,500GB SSD,Storage,60.0,30.0,HIGH,Stable,SUP_C
+PROD_015,1TB SSD,Storage,100.0,50.0,HIGH,Stable,SUP_C
+PROD_016,2TB External HDD,Storage,120.0,70.0,LOW,Stable,SUP_C
+PROD_017,64GB Pen Drive,Storage,15.0,5.0,HIGH,Stable,SUP_A
+PROD_018,Power Bank,Mobile Accessories,50.0,20.0,HIGH,Seasonal,SUP_B
+PROD_019,USB-C Charger,Mobile Accessories,25.0,10.0,HIGH,Stable,SUP_A
+PROD_020,Wireless Charger,Mobile Accessories,45.0,20.0,LOW,Promotion-sensitive,SUP_B

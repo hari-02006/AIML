@@ -1,0 +1,482 @@
+=== Snippet 1 ===
+Serving:
+  visualize: False
+
+
+=== Snippet 2 ===
+
+import base64
+import requests
+import pathlib
+
+BASE_URL = "http://localhost:8080"
+
+image_path = "./demo.jpg"
+
+# 对本地图像进行Base64编码
+with open(image_path, "rb") as file:
+    image_bytes = file.read()
+    image_data = base64.b64encode(image_bytes).decode("ascii")
+
+payload = {
+    "file": image_data, # Base64编码的文件内容或者文件URL
+    "fileType": 1, # 文件类型，1表示图像文件
+}
+
+response = requests.post(BASE_URL + "/layout-parsing", json=payload)
+assert response.status_code == 200, (response.status_code, response.text)
+
+result = response.json()["result"]
+pages = []
+for i, res in enumerate(result["layoutParsingResults"]):
+    pages.append({"prunedResult": res["prunedResult"], "markdownImages": res["markdown"].get("images")})
+    for img_name, img in res["outputImages"].items():
+        img_path = f"{img_name}_{i}.jpg"
+        pathlib.Path(img_path).parent.mkdir(exist_ok=True)
+        with open(img_path, "wb") as f:
+            f.write(base64.b64decode(img))
+        print(f"Output image saved at {img_path}")
+
+payload = {
+    "pages": pages,
+    "concatenatePages": True,
+}
+
+response = requests.post(BASE_URL + "/restructure-pages", json=payload)
+assert response.status_code == 200, (response.status_code, response.text)
+
+result = response.json()["result"]
+res = result["layoutParsingResults"][0]
+print(res["prunedResult"])
+md_dir = pathlib.Path("markdown")
+md_dir.mkdir(exist_ok=True)
+(md_dir / "doc.md").write_text(res["markdown"]["text"])
+for img_path, img in res["markdown"]["images"].items():
+    img_path = md_dir / img_path
+    img_path.parent.mkdir(parents=True, exist_ok=True)
+    img_path.write_bytes(base64.b64decode(img))
+print(f"Markdown document saved at {md_dir / 'doc.md'}")
+
+
+=== Snippet 3 ===
+#include &lt;iostream&gt;
+#include &lt;filesystem&gt;
+#include &lt;fstream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+#include "cpp-httplib/httplib.h" // https://github.com/Huiyicc/cpp-httplib
+#include "nlohmann/json.hpp" // https://github.com/nlohmann/json
+#include "base64.hpp" // https://github.com/tobiaslocker/base64
+
+namespace fs = std::filesystem;
+
+int main() {
+    httplib::Client client("localhost", 8080);
+
+    const std::string filePath = "./demo.jpg";
+
+    std::ifstream file(filePath, std::ios::binary | std::ios::ate);
+    if (!file) {
+        std::cerr  buffer(size);
+    if (!file.read(buffer.data(), size)) {
+        std::cerr (size));
+    std::string encodedFile = base64::to_base64(bufferStr);
+
+    nlohmann::json jsonObj;
+    jsonObj["file"] = encodedFile;
+    jsonObj["fileType"] = 1;
+
+    auto response = client.Post("/layout-parsing", jsonObj.dump(), "application/json");
+
+    if (response && response->status == 200) {
+        nlohmann::json jsonResponse = nlohmann::json::parse(response->body);
+        auto result = jsonResponse["result"];
+
+        if (!result.is_object() || !result.contains("layoutParsingResults")) {
+            std::cerr ());
+
+                    std::ofstream outFile(outputPath, std::ios::binary);
+                    if (outFile.is_open()) {
+                        outFile.write(decodedImage.c_str(), decodedImage.size());
+                        outFile.close();
+                        std::cout status body << std::endl;
+        }
+        return 1;
+    }
+
+    return 0;
+}
+
+
+=== Snippet 4 ===
+import okhttp3.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Base64;
+import java.nio.file.Paths;
+import java.nio.file.Files;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        String API_URL = "http://localhost:8080/layout-parsing";
+        String imagePath = "./demo.jpg";
+
+        File file = new File(imagePath);
+        byte[] fileContent = java.nio.file.Files.readAllBytes(file.toPath());
+        String base64Image = Base64.getEncoder().encodeToString(fileContent);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        ObjectNode payload = objectMapper.createObjectNode();
+        payload.put("file", base64Image);
+        payload.put("fileType", 1);
+
+        OkHttpClient client = new OkHttpClient();
+        MediaType JSON = MediaType.get("application/json; charset=utf-8");
+
+        RequestBody body = RequestBody.create(JSON, payload.toString());
+
+        Request request = new Request.Builder()
+                .url(API_URL)
+                .post(body)
+                .build();
+
+        try (Response response = client.newCall(request).execute()) {
+            if (response.isSuccessful()) {
+                String responseBody = response.body().string();
+                JsonNode root = objectMapper.readTree(responseBody);
+                JsonNode result = root.get("result");
+
+                JsonNode layoutParsingResults = result.get("layoutParsingResults");
+                for (int i = 0; i  {
+                        try {
+                            String imgBase64 = outputImages.get(imgName).asText();
+                            byte[] imgBytes = Base64.getDecoder().decode(imgBase64);
+                            String imgPath = imgName + "_" + finalI + ".jpg";
+
+                            File outputFile = new File(imgPath);
+                            File parentDir = outputFile.getParentFile();
+                            if (parentDir != null && !parentDir.exists()) {
+                                parentDir.mkdirs();
+                                System.out.println("Created directory: " + parentDir.getAbsolutePath());
+                            }
+
+                            try (FileOutputStream fos = new FileOutputStream(outputFile)) {
+                                fos.write(imgBytes);
+                                System.out.println("Saved image: " + imgPath);
+                            }
+                        } catch (IOException e) {
+                            System.err.println("Failed to save image: " + e.getMessage());
+                        }
+                    });
+                }
+            } else {
+                System.err.println("Request failed with HTTP code: " + response.code());
+            }
+        }
+    }
+}
+
+
+=== Snippet 5 ===
+package main
+
+import (
+    "bytes"
+    "encoding/base64"
+    "encoding/json"
+    "fmt"
+    "io/ioutil"
+    "net/http"
+    "os"
+    "path/filepath"
+)
+
+func main() {
+    API_URL := "http://localhost:8080/layout-parsing"
+    filePath := "./demo.jpg"
+
+    fileBytes, err := ioutil.ReadFile(filePath)
+    if err != nil {
+        fmt.Printf("Error reading file: %v\n", err)
+        return
+    }
+    fileData := base64.StdEncoding.EncodeToString(fileBytes)
+
+    payload := map[string]interface{}{
+        "file":     fileData,
+        "fileType": 1,
+    }
+    payloadBytes, err := json.Marshal(payload)
+    if err != nil {
+        fmt.Printf("Error marshaling payload: %v\n", err)
+        return
+    }
+
+    client := &http.Client{}
+    req, err := http.NewRequest("POST", API_URL, bytes.NewBuffer(payloadBytes))
+    if err != nil {
+        fmt.Printf("Error creating request: %v\n", err)
+        return
+    }
+    req.Header.Set("Content-Type", "application/json")
+
+    res, err := client.Do(req)
+    if err != nil {
+        fmt.Printf("Error sending request: %v\n", err)
+        return
+    }
+    defer res.Body.Close()
+
+    if res.StatusCode != http.StatusOK {
+        fmt.Printf("Unexpected status code: %d\n", res.StatusCode)
+        return
+    }
+
+    body, err := ioutil.ReadAll(res.Body)
+    if err != nil {
+        fmt.Printf("Error reading response: %v\n", err)
+        return
+    }
+
+    type Markdown struct {
+        Text   string            `json:"text"`
+        Images map[string]string `json:"images"`
+    }
+
+    type LayoutResult struct {
+        PrunedResult map[string]interface{} `json:"prunedResult"`
+        Markdown     Markdown               `json:"markdown"`
+        OutputImages map[string]string      `json:"outputImages"`
+        InputImage   *string                `json:"inputImage"`
+    }
+
+    type Response struct {
+        Result struct {
+            LayoutParsingResults []LayoutResult `json:"layoutParsingResults"`
+            DataInfo             interface{}    `json:"dataInfo"`
+        } `json:"result"`
+    }
+
+    var respData Response
+    if err := json.Unmarshal(body, &respData); err != nil {
+        fmt.Printf("Error parsing response: %v\n", err)
+        return
+    }
+
+    for i, res := range respData.Result.LayoutParsingResults {
+        fmt.Printf("Result %d - prunedResult: %+v\n", i, res.PrunedResult)
+
+        mdDir := fmt.Sprintf("markdown_%d", i)
+        os.MkdirAll(mdDir, 0755)
+        mdFile := filepath.Join(mdDir, "doc.md")
+        if err := os.WriteFile(mdFile, []byte(res.Markdown.Text), 0644); err != nil {
+            fmt.Printf("Error writing markdown file: %v\n", err)
+        } else {
+            fmt.Printf("Markdown document saved at %s\n", mdFile)
+        }
+
+        for path, imgBase64 := range res.Markdown.Images {
+            fullPath := filepath.Join(mdDir, path)
+            if err := os.MkdirAll(filepath.Dir(fullPath), 0755); err != nil {
+                fmt.Printf("Error creating directory for markdown image: %v\n", err)
+                continue
+            }
+            imgBytes, err := base64.StdEncoding.DecodeString(imgBase64)
+            if err != nil {
+                fmt.Printf("Error decoding markdown image: %v\n", err)
+                continue
+            }
+            if err := os.WriteFile(fullPath, imgBytes, 0644); err != nil {
+                fmt.Printf("Error saving markdown image: %v\n", err)
+            }
+        }
+
+        for name, imgBase64 := range res.OutputImages {
+            imgBytes, err := base64.StdEncoding.DecodeString(imgBase64)
+            if err != nil {
+                fmt.Printf("Error decoding output image %s: %v\n", name, err)
+                continue
+            }
+            filename := fmt.Sprintf("%s_%d.jpg", name, i)
+
+            if err := os.MkdirAll(filepath.Dir(filename), 0755); err != nil {
+                fmt.Printf("Error creating directory for output image: %v\n", err)
+                continue
+            }
+
+            if err := os.WriteFile(filename, imgBytes, 0644); err != nil {
+                fmt.Printf("Error saving output image %s: %v\n", filename, err)
+            } else {
+                fmt.Printf("Output image saved at %s\n", filename)
+            }
+        }
+    }
+}
+
+
+=== Snippet 6 ===
+using System;
+using System.IO;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
+
+class Program
+{
+    static readonly string API_URL = "http://localhost:8080/layout-parsing";
+    static readonly string inputFilePath = "./demo.jpg";
+
+    static async Task Main(string[] args)
+    {
+        var httpClient = new HttpClient();
+
+        byte[] fileBytes = File.ReadAllBytes(inputFilePath);
+        string fileData = Convert.ToBase64String(fileBytes);
+
+        var payload = new JObject
+        {
+            { "file", fileData },
+            { "fileType", 1 }
+        };
+        var content = new StringContent(payload.ToString(), Encoding.UTF8, "application/json");
+
+        HttpResponseMessage response = await httpClient.PostAsync(API_URL, content);
+        response.EnsureSuccessStatusCode();
+
+        string responseBody = await response.Content.ReadAsStringAsync();
+        JObject jsonResponse = JObject.Parse(responseBody);
+
+        JArray layoutParsingResults = (JArray)jsonResponse["result"]["layoutParsingResults"];
+        for (int i = 0; i < layoutParsingResults.Count; i++)
+        {
+            var res = layoutParsingResults[i];
+            Console.WriteLine($"[{i}] prunedResult:\n{res["prunedResult"]}");
+
+            JObject outputImages = res["outputImages"] as JObject;
+            if (outputImages != null)
+            {
+                foreach (var img in outputImages)
+                {
+                    string imgName = img.Key;
+                    string base64Img = img.Value?.ToString();
+                    if (!string.IsNullOrEmpty(base64Img))
+                    {
+                        string imgPath = $"{imgName}_{i}.jpg";
+                        byte[] imageBytes = Convert.FromBase64String(base64Img);
+
+                        string directory = Path.GetDirectoryName(imgPath);
+                        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+                        {
+                            Directory.CreateDirectory(directory);
+                            Console.WriteLine($"Created directory: {directory}");
+                        }
+
+                        File.WriteAllBytes(imgPath, imageBytes);
+                        Console.WriteLine($"Output image saved at {imgPath}");
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+=== Snippet 7 ===
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+
+const API_URL = 'http://localhost:8080/layout-parsing';
+const imagePath = './demo.jpg';
+const fileType = 1;
+
+function encodeImageToBase64(filePath) {
+  const bitmap = fs.readFileSync(filePath);
+  return Buffer.from(bitmap).toString('base64');
+}
+
+const payload = {
+  file: encodeImageToBase64(imagePath),
+  fileType: fileType
+};
+
+axios.post(API_URL, payload)
+  .then(response => {
+    const results = response.data.result.layoutParsingResults;
+    results.forEach((res, index) => {
+      console.log(`\n[${index}] prunedResult:`);
+      console.log(res.prunedResult);
+
+      const outputImages = res.outputImages;
+      if (outputImages) {
+        Object.entries(outputImages).forEach(([imgName, base64Img]) => {
+          const imgPath = `${imgName}_${index}.jpg`;
+
+          const directory = path.dirname(imgPath);
+          if (!fs.existsSync(directory)) {
+            fs.mkdirSync(directory, { recursive: true });
+            console.log(`Created directory: ${directory}`);
+          }
+
+          fs.writeFileSync(imgPath, Buffer.from(base64Img, 'base64'));
+          console.log(`Output image saved at ${imgPath}`);
+        });
+      } else {
+        console.log(`[${index}] No outputImages.`);
+      }
+    });
+  })
+  .catch(error => {
+    console.error('Error during API request:', error.message || error);
+  });
+
+
+=== Snippet 8 ===
+&lt;?php
+
+$API_URL = "http://localhost:8080/layout-parsing";
+$image_path = "./demo.jpg";
+
+$image_data = base64_encode(file_get_contents($image_path));
+$payload = array("file" => $image_data, "fileType" => 1);
+
+$ch = curl_init($API_URL);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
+curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($ch);
+curl_close($ch);
+
+$result = json_decode($response, true)["result"]["layoutParsingResults"];
+
+foreach ($result as $i => $item) {
+    echo "[$i] prunedResult:\n";
+    print_r($item["prunedResult"]);
+
+    if (!empty($item["outputImages"])) {
+        foreach ($item["outputImages"] as $img_name => $img_base64) {
+            $output_image_path = "{$img_name}_{$i}.jpg";
+
+            $directory = dirname($output_image_path);
+            if (!is_dir($directory)) {
+                mkdir($directory, 0777, true);
+                echo "Created directory: $directory\n";
+            }
+
+            file_put_contents($output_image_path, base64_decode($img_base64));
+            echo "Output image saved at $output_image_path\n";
+        }
+    } else {
+        echo "No outputImages found for item $i\n";
+    }
+}
+?&gt;
+
+
